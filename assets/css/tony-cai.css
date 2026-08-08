@@ -953,14 +953,6 @@ html[data-theme="dark"] .tc-paper-search button {
   text-transform: uppercase;
 }
 
-.tc-paper-nav-skip {
-  display: inline-block;
-  margin: 0 0 0.65rem 0.58rem;
-  color: var(--tc-muted);
-  font-size: 0.7rem;
-  font-weight: 700;
-}
-
 .tc-paper-side-nav ol,
 .tc-paper-side-nav ul {
   list-style: none;
@@ -1500,16 +1492,6 @@ html[data-theme="dark"] .tc-paper-pdf-pill {
     padding: 0.5rem 0.7rem;
     border-right: 1px solid var(--tc-line);
     background: var(--tc-paper);
-    white-space: nowrap;
-  }
-
-  .tc-paper-nav-skip {
-    display: flex;
-    flex: 0 0 auto;
-    align-items: center;
-    min-height: 2.75rem;
-    margin: 0 0.35rem 0 0;
-    padding-inline: 0.35rem;
     white-space: nowrap;
   }
 
