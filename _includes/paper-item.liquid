@@ -1,0 +1,51 @@
+{% assign paper = include.paper %}
+<li
+  {% if include.topics %}
+    data-paper-topics="{{ include.topics | escape }}"
+  {% endif %}
+  data-paper-item
+>
+  <p class="tc-paper-authors" data-paper-search-field>{{ paper.authors | escape }}</p>
+  <div class="tc-paper-title-row">
+    <h3 data-paper-search-field>
+      {% if paper.abstract %}
+        <button
+          class="tc-paper-title-toggle"
+          id="{{ include.instance_id }}-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="{{ include.instance_id }}-abstract"
+          data-paper-toggle
+        >
+          {{ paper.title | escape }}
+        </button>
+      {% else %}
+        {{ paper.title | escape }}
+      {% endif %}
+    </h3>
+    {% if paper.abstract and paper.pdf_url %}
+      <a
+        class="tc-paper-pdf-pill"
+        href="{{ paper.pdf_url | escape }}"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Open PDF: {{ paper.title | escape }}"
+        >PDF</a
+      >
+    {% endif %}
+  </div>
+  <p class="tc-paper-venue" data-paper-search-field>{{ paper.venue | escape }}</p>
+  {% if paper.abstract %}
+    <div
+      class="tc-paper-abstract-panel"
+      id="{{ include.instance_id }}-abstract"
+      role="region"
+      aria-labelledby="{{ include.instance_id }}-toggle"
+      data-paper-panel
+      hidden
+    >
+      <p class="tc-paper-abstract-label">Abstract</p>
+      <p class="tc-paper-abstract">{{ paper.abstract | escape }}</p>
+    </div>
+  {% endif %}
+</li>
