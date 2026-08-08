@@ -12,6 +12,7 @@ require "json"
 require "nokogiri"
 require "open-uri"
 require "uri"
+require_relative "local_pdf_paths"
 
 ROOT = File.expand_path("..", __dir__)
 DATA_PATH = File.join(ROOT, "_data", "papers.json")
@@ -23,17 +24,13 @@ THREAD_COUNT = Integer(ENV.fetch("TCAI_PAPER_DETAIL_THREADS", "12"), 10)
 
 PDF_URL_OVERRIDES = {
   "http://www-stat.wharton.upenn.edu/~tcai/paper/html/FL-PCA.html" => "https://arxiv.org/pdf/2411.15660",
-  "http://www-stat.wharton.upenn.edu/~tcai/paper/html/Multiple-Testing-Review.html" => "http://www-stat.wharton.upenn.edu/~tcai/paper/FDR-Review.pdf",
+  "http://www-stat.wharton.upenn.edu/~tcai/paper/html/Multiple-Testing-Review.html" => "/assets/pdf/papers/FDR-Review.pdf",
   "http://www-stat.wharton.upenn.edu/~tcai/paper/html/Sharp-Block.html" => "https://faculty.wharton.upenn.edu/wp-content/uploads/2012/04/SharpAdaptiveEstimation.pdf",
 }.freeze
 
 ABSTRACT_URL_OVERRIDES = {
   "http://www-stat.wharton.upenn.edu/~tcai/paper/html/Wishart-Concentration.html" => "https://arxiv.org/abs/2008.12434",
 }.freeze
-
-KNOWN_UNAVAILABLE_PDF_URLS = [
-  "http://www-stat.wharton.upenn.edu/~tcai/paper/Discussion-of-FDR-GLM.pdf",
-].freeze
 
 def normalize_text(value)
   value.to_s
@@ -100,16 +97,8 @@ def parse_arxiv_abstract(url, html)
 end
 
 def enrichment_for(paper)
-  source_url = paper["url"].to_s.strip
+  source_url = LocalPdfPaths.localize(paper["url"].to_s.strip)
   return { kind: :missing_source, warnings: ["no source URL"] } if source_url.empty?
-
-  if KNOWN_UNAVAILABLE_PDF_URLS.include?(source_url)
-    return {
-      kind: :unavailable_pdf,
-      remove_pdf_url: true,
-      warnings: ["the legacy PDF is missing and no open authoritative replacement is available"],
-    }
-  end
 
   if source_url.match?(PDF_PATTERN)
     return { kind: :direct_pdf, pdf_url: source_url, warnings: [] }
@@ -136,6 +125,7 @@ def enrichment_for(paper)
 
   result = parse_legacy_detail(source_url, read_source(source_url))
   result[:pdf_url] = PDF_URL_OVERRIDES.fetch(source_url) if PDF_URL_OVERRIDES.key?(source_url)
+  result[:pdf_url] = LocalPdfPaths.localize(result[:pdf_url]) if result[:pdf_url]
 
   if !result[:abstract] && ABSTRACT_URL_OVERRIDES.key?(source_url)
     abstract_url = ABSTRACT_URL_OVERRIDES.fetch(source_url)

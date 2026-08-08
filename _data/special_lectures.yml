@@ -1,0 +1,152 @@
+lectures:
+  - id: distinguished-scientist-2023
+    lecture: Distinguished Scientist Hall Lecture
+    institution: Chinese Academy of Sciences
+    date: October 2023
+    title: "When Statistics Meets Computing: A Few Interesting Problems and Challenges"
+
+  - id: noether-2023
+    lecture: Gottfried E. Noether Award Lecture
+    institution: American Statistical Association, Joint Statistical Meetings
+    date: August 2023
+    title: Optimal Distributed Nonparametric Regression
+    abstract:
+      - Distributed estimation is increasingly important when data remain in separate locations because of scale, privacy, or security requirements. Such settings are common in medicine, finance, and business.
+      - The lecture studies optimal nonparametric regression under communication and privacy constraints. It establishes minimax convergence rates, quantifies the tradeoff between statistical accuracy and those constraints, and develops procedures that attain the optimal rates.
+    paper_ids:
+      - optimal-federated-learning-for-nonparametric-regression-with-heterogenous-distributed-differential-privacy-constraints
+      - distributed-nonparametric-regression-optimal-rate-of-convergence-and-cost-of-adaptation
+
+  - id: herman-rubin-2023
+    lecture: Herman Rubin Lecture
+    institution: Purdue University
+    date: April 2023
+    title: Optimal Statistical Estimation under Nonstatistical Constraints
+
+  - id: laplace-2021
+    lecture: Laplace Lecture of the Bernoulli Society
+    institution: 10th World Congress in Probability and Statistics
+    date: July 2021
+    title: "Transfer Learning: Optimality and Adaptive Algorithms"
+    abstract:
+      - Transfer learning uses knowledge from one task to improve learning in a related setting. The lecture considers several statistical transfer-learning problems, with an emphasis on nonparametric classification under the posterior-drift model.
+      - It establishes the minimax rate, constructs a rate-optimal weighted nearest-neighbor classifier, and measures how source observations improve the target task. A data-driven classifier adapts over a broad collection of parameter spaces within a logarithmic factor of the optimal rate.
+    paper_ids:
+      - transfer-learning-for-nonparametric-classification-minimax-rate-and-adaptive-classifier
+      - transfer-learning-for-high-dimensional-linear-regression-prediction-estimation-and-minimax-optimality
+      - transfer-learning-in-large-scale-gaussian-graphical-models-with-false-discovery-rate-control
+      - estimation-and-inference-for-high-dimensional-generalized-linear-models-with-knowledge-transfer
+
+  - id: peter-whittle-2018
+    lecture: Peter Whittle Lecture
+    institution: Cambridge University
+    date: October 2018
+    title: When Statistics Meets Computing
+    abstract:
+      - In high-dimensional problems, computational demands become part of statistical method design. The lecture asks whether restricting attention to polynomial-time procedures imposes a cost in statistical performance.
+      - Submatrix localization and sparse matrix detection illustrate the relationship between statistical accuracy and computational efficiency, including regimes in which optimal inference is easy, difficult, or impossible.
+    paper_ids:
+      - computational-and-statistical-boundaries-for-submatrix-localization-in-a-large-noisy-matrix
+      - statistical-and-computational-limits-for-sparse-matrix-detection
+
+  - id: ncmis-2014
+    lecture: NCMIS Distinguished Lectures
+    institution: Chinese Academy of Sciences
+    date: June 2014
+    title: Compressed Sensing and High-Dimensional Linear Regression
+    abstract:
+      - These lectures examine compressed sensing and linear regression when the dimension can greatly exceed the sample size. They develop a unified analysis of constrained and penalized l1 methods for sparse recovery with noiseless, bounded-noise, and Gaussian-noise observations.
+      - Additional topics include the Johnson–Lindenstrauss lemma, construction of compressed-sensing matrices, and optimal and adaptive estimation of high-dimensional covariance and precision matrices.
+    paper_ids:
+      - limiting-laws-of-coherence-of-random-matrices-with-applications-to-testing-covariance-structure-and-construction-of-compressed-sensing-matrices
+      - adaptive-thresholding-for-sparse-covariance-matrix-estimation
+      - a-direct-estimation-approach-to-sparse-linear-discriminant-analysis
+      - a-constrained-l1-minimization-approach-to-sparse-precision-matrix-estimation
+      - estimating-sparse-precision-matrix-optimal-rates-of-convergence-and-adaptive-estimation
+      - shifting-inequality-and-recovery-of-sparse-signals
+      - stable-recovery-of-sparse-signals-and-an-oracle-inequality
+      - adaptive-covariance-matrix-estimation-through-block-thresholding
+      - sparse-representation-of-a-polytope-and-recovery-of-sparse-signals-and-low-rank-matrices
+      - optimal-rates-of-convergence-for-covariance-matrix-estimation
+      - optimal-rates-of-convergence-for-sparse-covariance-matrix-estimation
+
+  - id: hirschfeld-2012
+    lecture: Hermann Otto Hirschfeld Lectures
+    institution: Humboldt-Universität zu Berlin
+    date: October 2012
+    title: Statistical Inference for High-Dimensional Covariance Structure
+    abstract:
+      - Covariance structure is central to inference and to applications including genomics, fMRI, risk management, and web search. Conventional fixed-dimension methods are inadequate when the number of variables exceeds the sample size.
+      - The lectures present optimal and adaptive methods for estimating large covariance matrices, highlighting theoretical features that differ from classical nonparametric function estimation and discussing related applications.
+    paper_ids:
+      - adaptive-thresholding-for-sparse-covariance-matrix-estimation
+      - a-direct-estimation-approach-to-sparse-linear-discriminant-analysis
+      - estimating-sparse-precision-matrix-optimal-rates-of-convergence-and-adaptive-estimation
+      - adaptive-covariance-matrix-estimation-through-block-thresholding
+      - optimal-rates-of-convergence-for-covariance-matrix-estimation
+      - optimal-rates-of-convergence-for-sparse-covariance-matrix-estimation
+
+  - id: forum-2010
+    lecture: Forum Lecture
+    institution: European Meeting of Statisticians, Piraeus
+    date: August 2010
+    title: Statistical Inference for High-Dimensional Covariance Structure
+    abstract:
+      - The lecture develops optimal methods for estimating large covariance matrices and explains why their behavior differs from conventional nonparametric estimation. It also treats sparse precision-matrix estimation through constrained l1 minimization.
+      - Related questions include the optimality of precision-matrix procedures and high-dimensional tests of covariance structure based on random-matrix theory.
+    paper_ids:
+      - limiting-laws-of-coherence-of-random-matrices-with-applications-to-testing-covariance-structure-and-construction-of-compressed-sensing-matrices
+      - a-constrained-l1-minimization-approach-to-sparse-precision-matrix-estimation
+      - adaptive-thresholding-for-sparse-covariance-matrix-estimation
+      - stable-recovery-of-sparse-signals-and-an-oracle-inequality
+      - optimal-rates-of-convergence-for-covariance-matrix-estimation
+      - optimal-rates-of-convergence-for-sparse-covariance-matrix-estimation
+      - minimax-estimation-of-large-covariance-matrices-under-l1-norm-with-discussion
+      - optimal-rates-of-convergence-for-estimating-toeplitz-covariance-matrices
+
+  - id: harvard-2010
+    lecture: Harvard University
+    institution: Department of Biostatistics
+    date: April 2010
+    title: Lectures on Ultra High-Dimensional Regression
+    abstract:
+      - These lectures study linear regression when the number of variables is much larger than the number of observations. They begin with the high-dimensional Gaussian sequence model and then turn to sparse linear models.
+      - A unified analysis covers the Lasso and Dantzig selector under noiseless, bounded-error, and Gaussian-noise settings, with an extension to l1 methods for sparse precision-matrix estimation.
+    paper_ids:
+      - a-constrained-l1-minimization-approach-to-sparse-precision-matrix-estimation
+      - shifting-inequality-and-recovery-of-sparse-signals
+      - stable-recovery-of-sparse-signals-and-an-oracle-inequality
+      - optimal-rates-of-convergence-for-covariance-matrix-estimation
+
+  - id: paris-2010
+    lecture: ENSAE-CREST
+    institution: Paris
+    date: March–April 2010
+    title: Lectures on High-Dimensional Statistical Inference
+    abstract:
+      - The lectures connect foundations in nonparametric function estimation—including minimaxity, adaptation, oracle inequalities, and wavelet thresholding—to contemporary problems in high-dimensional inference.
+      - Topics include compressed sensing, sparse-signal detection, and covariance estimation. Constrained l1 methods are analyzed across several noise settings, and optimal matrix-estimation results reveal behavior unlike classical function and sequence estimation.
+    paper_ids:
+      - adaptive-wavelet-estimation-a-block-thresholding-and-oracle-inequality-approach
+      - on-information-pooling-adaptability-and-superefficiency-in-nonparametric-function-estimation
+      - a-constrained-l1-minimization-approach-to-sparse-precision-matrix-estimation
+      - shifting-inequality-and-recovery-of-sparse-signals
+      - stable-recovery-of-sparse-signals-and-an-oracle-inequality
+      - optimal-rates-of-convergence-for-covariance-matrix-estimation
+
+  - id: medallion-2009
+    lecture: IMS Medallion Lecture
+    institution: Joint Statistical Meetings, Washington, DC
+    date: August 2009
+    title: "High-Dimensional Inference: Sparse Signal Recovery and Covariance Matrix Estimation"
+    abstract:
+      - The lecture considers two central high-dimensional problems: recovering a sparse signal from relatively few noisy measurements and estimating a large covariance matrix. For sparse recovery, it studies constrained l1 minimization under restricted-isometry and mutual-incoherence conditions.
+      - A unified analysis covers noiseless, bounded-error, and Gaussian-noise settings. The shifting inequality provides a simple route to identifiability, stable recovery, and oracle guarantees.
+      - For covariance matrices, the lecture establishes optimal convergence rates under operator, Frobenius, and matrix l1 losses. The results show that optimal row-by-row estimation need not produce an optimal matrix estimator and require new minimax lower-bound constructions.
+    paper_ids:
+      - shifting-inequality-and-recovery-of-sparse-signals
+      - stable-recovery-of-sparse-signals-and-an-oracle-inequality
+      - on-recovery-of-sparse-signals-via-l1-minimization
+      - optimal-rates-of-convergence-for-covariance-matrix-estimation
+      - minimax-estimation-of-large-covariance-matrices-under-l1-norm-with-discussion
+      - optimal-rates-of-convergence-for-sparse-covariance-matrix-estimation

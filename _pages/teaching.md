@@ -33,7 +33,7 @@ nav_order: 6
     <p>Spring 2020</p>
   </article>
   <article class="tc-resource-card">
-    <h2><a href="http://www-stat.wharton.upenn.edu/~tcai/Stat972-Syllabus-Fall18.pdf">STAT 972 · Advanced Topics in Mathematical Statistics</a></h2>
+    <h2><a href="/assets/pdf/teaching/Stat972-Syllabus-Fall18.pdf">STAT 972 · Advanced Topics in Mathematical Statistics</a></h2>
     <p>Fall 2018 · Syllabus</p>
   </article>
   <article class="tc-resource-card">
@@ -45,11 +45,11 @@ nav_order: 6
     <p>Fall 2016</p>
   </article>
   <article class="tc-resource-card">
-    <h2><a href="http://www-stat.wharton.upenn.edu/~tcai/Stat972-Syllabus16.pdf">STAT 972 · Advanced Topics in Mathematical Statistics</a></h2>
+    <h2><a href="/assets/pdf/teaching/Stat972-Syllabus16.pdf">STAT 972 · Advanced Topics in Mathematical Statistics</a></h2>
     <p>Fall 2016 · Syllabus</p>
   </article>
   <article class="tc-resource-card">
-    <h2><a href="http://www-stat.wharton.upenn.edu/~tcai/Stat915-Syllabus-Spring16.pdf">STAT 915 · Nonparametric Inference</a></h2>
+    <h2><a href="/assets/pdf/teaching/Stat915-Syllabus-Spring16.pdf">STAT 915 · Nonparametric Inference</a></h2>
     <p>Spring 2016 · Syllabus</p>
   </article>
 </div>

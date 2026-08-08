@@ -36,7 +36,6 @@ description: T. Tony Cai is the Daniel H. Silberberg Professor of Statistics and
 <section class="tc-bio-band" aria-labelledby="research-at-the-frontiers">
   <div class="tc-shell tc-bio-grid">
     <div>
-      <p class="tc-eyebrow">Research</p>
       <h2 id="research-at-the-frontiers">At the frontiers of statistical science</h2>
     </div>
     <div class="tc-bio-copy">

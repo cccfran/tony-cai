@@ -22,29 +22,39 @@ nav_order: 2
 </div>
 
 <div class="tc-paper-browser" data-paper-browser data-item-label-plural="entries">
-  <form class="tc-paper-search" role="search" data-paper-search>
-    <label for="paper-search-chronological">Search papers</label>
-    <div class="tc-paper-search-row">
-      <input
-        id="paper-search-chronological"
-        type="search"
-        placeholder="Search by title, author, journal, or year"
-        autocomplete="off"
-        data-paper-search-input
-      >
-      <button type="button" data-paper-search-clear>Clear</button>
-    </div>
-    <p class="tc-paper-search-help">Results update as you type.</p>
-    <p class="tc-paper-search-status" role="status" aria-live="polite" data-paper-search-status></p>
-  </form>
+  <div class="tc-paper-layout">
+    <aside class="tc-paper-side" aria-label="Paper navigation">
+      <div class="tc-paper-side-inner" data-paper-side-scroll>
+        <p class="tc-paper-side-title" id="paper-year-navigation">Browse by year</p>
+        <a class="tc-paper-nav-skip" href="#paper-content">Skip navigation</a>
+        <nav class="tc-paper-side-nav" aria-labelledby="paper-year-navigation" data-paper-side-nav>
+          <ol class="tc-paper-year-list">
+            {% for section in site.data.papers.sections %}
+              <li><a href="#{{ section.id }}">{{ section.title }}</a></li>
+            {% endfor %}
+          </ol>
+        </nav>
+      </div>
+    </aside>
 
-  <nav class="tc-paper-toolbar" aria-label="Jump to publication year">
-    {% for section in site.data.papers.sections %}
-      <a href="#{{ section.id }}">{{ section.title }}</a>
-    {% endfor %}
-  </nav>
+    <div class="tc-paper-content" id="paper-content" tabindex="-1">
+      <form class="tc-paper-search" role="search" data-paper-search>
+        <label for="paper-search-chronological">Search papers</label>
+        <div class="tc-paper-search-row">
+          <input
+            id="paper-search-chronological"
+            type="search"
+            placeholder="Search by title, author, journal, or year"
+            autocomplete="off"
+            data-paper-search-input
+          >
+          <button type="button" data-paper-search-clear>Clear</button>
+        </div>
+        <p class="tc-paper-search-help">Results update as you type.</p>
+        <p class="tc-paper-search-status" role="status" aria-live="polite" data-paper-search-status></p>
+      </form>
 
-  <p class="tc-paper-no-results" data-paper-no-results hidden>No papers match that search.</p>
+      <p class="tc-paper-no-results" data-paper-no-results hidden>No papers match that search.</p>
 
 {% for section in site.data.papers.sections %}
 
@@ -62,6 +72,9 @@ nav_order: 2
 </section>
 {% endfor %}
 
+    </div>
+
+  </div>
 </div>
 
 <script defer src="{{ '/assets/js/paper-search.js' | relative_url }}"></script>

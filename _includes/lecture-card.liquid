@@ -1,0 +1,62 @@
+{% assign lecture = include.lecture %}
+<li class="tc-lecture-card" data-disclosure-item>
+  <p class="tc-lecture-meta">
+    <strong>{{ lecture.lecture | escape }}</strong>
+    <span aria-hidden="true"> · </span>{{ lecture.institution | escape }}
+    <span aria-hidden="true"> · </span>{{ lecture.date | escape }}
+  </p>
+  <div class="tc-paper-title-row tc-lecture-title-row">
+    <h2>
+      {% if lecture.abstract %}
+        <button
+          class="tc-paper-title-toggle"
+          id="lecture-{{ lecture.id }}-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="lecture-{{ lecture.id }}-details"
+          data-paper-toggle
+        >
+          {{ lecture.title | escape }}
+        </button>
+      {% else %}
+        {{ lecture.title | escape }}
+      {% endif %}
+    </h2>
+  </div>
+
+  {% if lecture.abstract %}
+    <div
+      class="tc-paper-abstract-panel tc-lecture-detail-panel"
+      id="lecture-{{ lecture.id }}-details"
+      role="region"
+      aria-labelledby="lecture-{{ lecture.id }}-toggle"
+      data-paper-panel
+      hidden
+    >
+      <p class="tc-paper-abstract-label">Abstract</p>
+      <div class="tc-lecture-abstract-copy">
+        {% for paragraph in lecture.abstract %}
+          <p class="tc-paper-abstract">{{ paragraph | escape }}</p>
+        {% endfor %}
+      </div>
+
+      {% if lecture.paper_ids %}
+        <div class="tc-lecture-related-papers">
+          <p class="tc-paper-abstract-label">Related papers</p>
+          <ol class="tc-paper-list tc-lecture-paper-list">
+            {% for paper_id in lecture.paper_ids %}
+              {% for source_section in site.data.papers.sections %}
+                {% for paper in source_section.papers %}
+                  {% if paper.id == paper_id %}
+                    {% capture paper_instance_id %}lecture-{{ lecture.id }}-{{ paper.id }}{% endcapture %}
+                    {% include paper-item.liquid paper=paper instance_id=paper_instance_id %}
+                  {% endif %}
+                {% endfor %}
+              {% endfor %}
+            {% endfor %}
+          </ol>
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+</li>
