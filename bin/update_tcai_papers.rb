@@ -12,6 +12,7 @@ require "open-uri"
 require "open3"
 require "set"
 require "uri"
+require_relative "local_pdf_paths"
 
 ROOT = File.expand_path("..", __dir__)
 DEFAULT_CV = File.join(ROOT, "assets", "pdf", "Tony-Cai-CV-short.pdf")
@@ -193,7 +194,7 @@ end
 def canonical_url(url)
   return nil if url.nil? || url.empty?
 
-  url.sub(%r{\Ahttps://www-stat\.wharton\.upenn\.edu}, "http://www-stat.wharton.upenn.edu")
+  LocalPdfPaths.localize(url).sub(%r{\Ahttps://www-stat\.wharton\.upenn\.edu}, "http://www-stat.wharton.upenn.edu")
 end
 
 def closest_paper(title, candidates, minimum: 0.58)
@@ -212,6 +213,7 @@ def report_record(paper)
   cleaned = paper.transform_values do |value|
     value.is_a?(String) ? value.unicode_normalize(:nfkc).gsub(/[[:space:]]+/, " ").strip : value
   end
+  cleaned["pdf_url"] = LocalPdfPaths.localize(cleaned["pdf_url"]) if cleaned["pdf_url"]
   year = cleaned.fetch("authors")[/\((\d{4}\+?)\)/, 1]
   cleaned.merge(
     "id" => slug(cleaned.fetch("title")),
@@ -243,6 +245,7 @@ def build_canonical_data(cv_records, existing_data)
           else
             CV_URL_OVERRIDES.fetch(record.fetch("cv_number"), canonical_url(match && match["url"]))
           end
+    url = canonical_url(url)
     matched_urls += 1 if url
     id = slug(record.fetch("title"))
     suffix = 2
@@ -254,7 +257,9 @@ def build_canonical_data(cv_records, existing_data)
 
     paper = record.merge("id" => id, "url" => url, "topics" => [])
     %w[abstract pdf_url].each do |field|
-      paper[field] = match[field] if match && match[field] && !match[field].empty?
+      next unless match && match[field] && !match[field].empty?
+
+      paper[field] = field == "pdf_url" ? LocalPdfPaths.localize(match[field]) : match[field]
     end
     paper
   end

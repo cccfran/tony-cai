@@ -8,6 +8,7 @@ require "json"
 require "nokogiri"
 require "open-uri"
 require "uri"
+require_relative "local_pdf_paths"
 
 ROOT = File.expand_path("..", __dir__)
 BASE_URL = "http://www-stat.wharton.upenn.edu/~tcai/"
@@ -47,7 +48,7 @@ end
 def absolute_url(href)
   return nil if href.nil? || href.empty?
 
-  URI.join(BASE_URL, href).to_s
+  LocalPdfPaths.localize(URI.join(BASE_URL, href).to_s)
 end
 
 def parse_papers(html)

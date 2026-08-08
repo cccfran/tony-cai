@@ -45,7 +45,7 @@ nav_order: 3
     <p>
       A fast implementation of the CLIME estimator for sparse precision matrices is available through the <em>flare</em>
       package. The <a href="http://www-stat.wharton.upenn.edu/~tcai/paper/Softwares/CLIME-R-Package/clime_0.2.tar.gz">original R package</a>
-      and <a href="http://www-stat.wharton.upenn.edu/~tcai/paper/Softwares/CLIME-R-Package/clime-manual.pdf">manual</a> are also archived.
+      and <a href="/assets/pdf/software/clime-manual.pdf">manual</a> are also archived.
     </p>
   </li>
   <li>
