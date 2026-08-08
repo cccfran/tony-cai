@@ -1,0 +1,32 @@
+{% capture footer_contents %}
+  &copy; 2026
+  <a href="https://statistics.wharton.upenn.edu/profile/tcai/" target="_blank" rel="noopener noreferrer">Tony Cai</a>
+  <span class="tc-footer-separator" aria-hidden="true">|</span>
+  <a href="https://statistics.wharton.upenn.edu/" target="_blank" rel="noopener noreferrer">Wharton Statistics and Data Science</a>
+  <span aria-hidden="true">·</span>
+  <a href="https://www.upenn.edu/" target="_blank" rel="noopener noreferrer">University of Pennsylvania</a>
+  <span class="tc-footer-separator" aria-hidden="true">|</span>
+  Last updated: August 08, 2026.
+{% endcapture %}
+
+{% if site.footer_fixed %}
+  <footer class="fixed-bottom" role="contentinfo">
+    <div class="container mt-0">
+      {{ footer_contents }}
+    </div>
+  </footer>
+{% else %}
+  <footer class="sticky-bottom mt-5" role="contentinfo">
+    {% if site.newsletter.enabled %}
+      {% if site.plugins contains 'al_newsletter' %}
+        {% include plugins/al_newsletter_form_center.liquid %}
+      {% else %}
+        {% include newsletter.liquid %}
+      {% endif %}
+    {% endif %}
+
+    <div class="container">
+      {{ footer_contents }}
+    </div>
+  </footer>
+{% endif %}

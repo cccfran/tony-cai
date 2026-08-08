@@ -1,0 +1,60 @@
+---
+---
+<!doctype html>
+{%- capture html_attributes -%}
+  {%- if site.plugins contains 'al_rtl' -%}
+    {%- include plugins/al_rtl_html_attrs.liquid -%}
+  {%- else -%}
+    lang="{{ page.lang | default: site.lang }}"
+  {%- endif -%}
+{%- endcapture -%}
+<html {{ html_attributes }}>
+  <head>
+    <script>
+      (() => {
+        try {
+          const theme = localStorage.getItem('theme');
+          if (theme !== 'light' && theme !== 'dark' && theme !== 'system') {
+            localStorage.setItem('theme', 'light');
+          }
+        } catch (_error) {
+          // Ignore storage restrictions and leave the theme runtime unchanged.
+        }
+      })();
+    </script>
+    {% if page.redirect %}
+      {% if page.redirect contains '://' %}
+        {% assign redirect = page.redirect %}
+      {% else %}
+        {% assign redirect = page.redirect | relative_url %}
+      {% endif %}
+      <meta http-equiv="refresh" content="0; url={{ redirect }}">
+    {% endif %}
+    {% include head.liquid %}
+    <link rel="stylesheet" href="{{ '/assets/css/tony-cai.css' | relative_url | bust_file_cache }}">
+  </head>
+
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    {% include header.liquid %}
+
+    {% if page.permalink == '/' %}
+      <main class="tc-home" role="main">{{ content }}</main>
+    {% else %}
+      <main class="container mt-5 tc-page" role="main">
+        <header class="tc-page-header">
+          {% if page.kicker %}
+            <p class="tc-eyebrow">{{ page.kicker }}</p>
+          {% endif %}
+          <h1>{{ page.title }}</h1>
+          {% if page.description %}
+            <p class="tc-page-intro">{{ page.description }}</p>
+          {% endif %}
+        </header>
+        <article class="tc-page-content">{{ content }}</article>
+      </main>
+    {% endif %}
+
+    {% include footer.liquid %}
+    {% include scripts.liquid %}
+  </body>
+</html>

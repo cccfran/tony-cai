@@ -1,12 +1,14 @@
 ---
-layout: cv
+layout: tony
 permalink: /cv/
 title: CV
+description: Curriculum vitae of T. Tony Cai (PDF).
 nav: true
-nav_order: 5
-cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+nav_order: 8
+redirect: /assets/pdf/Tony-Cai-CV-short.pdf
 ---
+
+<p>
+  Opening T. Tony Cai’s curriculum vitae. If the PDF does not open automatically,
+  <a href="{{ '/assets/pdf/Tony-Cai-CV-short.pdf' | relative_url }}">view the CV here</a>.
+</p>

@@ -1,0 +1,183 @@
+{
+  "source_url": "http://www-stat.wharton.upenn.edu/~tcai/Papers-by-Topics.html",
+  "source_updated": "2026-02-09",
+  "cross_listing_note": "Some papers are cross-listed under multiple topics.",
+  "topics": [
+    {
+      "id": "machine-learning",
+      "legacy_anchor": "Machine.Learning",
+      "title": "Statistical Machine Learning",
+      "level": 1,
+      "parent_id": null,
+      "count": 1
+    },
+    {
+      "id": "transfer-learning",
+      "legacy_anchor": "Transfer.Learning",
+      "title": "Transfer Learning",
+      "level": 2,
+      "parent_id": "machine-learning",
+      "count": 8
+    },
+    {
+      "id": "privacy",
+      "legacy_anchor": "Privacy",
+      "title": "Differentially Private Learning",
+      "level": 2,
+      "parent_id": "machine-learning",
+      "count": 10
+    },
+    {
+      "id": "federated-learning",
+      "legacy_anchor": "Federated.Learning",
+      "title": "Federated Learning",
+      "level": 2,
+      "parent_id": "machine-learning",
+      "count": 9
+    },
+    {
+      "id": "computational-costs",
+      "legacy_anchor": "Computational.Costs",
+      "title": "Interplay between Statistical Accuracy and Computational Costs",
+      "level": 2,
+      "parent_id": "machine-learning",
+      "count": 2
+    },
+    {
+      "id": "high-d",
+      "legacy_anchor": "High-D",
+      "title": "High-Dimensional Statistics",
+      "level": 1,
+      "parent_id": null,
+      "count": 0
+    },
+    {
+      "id": "low-rank-matrices",
+      "legacy_anchor": "Low.Rank.Matrices",
+      "title": "PCA, SVD, & Inference for High-Dimensional Low-Rank Matrices",
+      "level": 2,
+      "parent_id": "high-d",
+      "count": 16
+    },
+    {
+      "id": "covariance-structures",
+      "legacy_anchor": "Covariance.Structures",
+      "title": "Inference for High-Dimensional Covariance Structures",
+      "level": 2,
+      "parent_id": "high-d",
+      "count": 31
+    },
+    {
+      "id": "linear-regression",
+      "legacy_anchor": "Linear.Regression",
+      "title": "Compressed Sensing, High-Dimensional Linear Models & GLMs",
+      "level": 2,
+      "parent_id": "high-d",
+      "count": 33
+    },
+    {
+      "id": "learning",
+      "legacy_anchor": "Learning",
+      "title": "Supervised, Unsupervised, & Semi-Supervised Learning",
+      "level": 2,
+      "parent_id": "high-d",
+      "count": 8
+    },
+    {
+      "id": "network-analysis",
+      "legacy_anchor": "Network.Analysis",
+      "title": "Network Data Analysis",
+      "level": 2,
+      "parent_id": "high-d",
+      "count": 3
+    },
+    {
+      "id": "sparse-signals",
+      "legacy_anchor": "Sparse.Signals",
+      "title": "Detection & Identification of Sparse Signals",
+      "level": 2,
+      "parent_id": "high-d",
+      "count": 16
+    },
+    {
+      "id": "other-high-d-problems",
+      "legacy_anchor": "Other.High.D.Problems",
+      "title": "Other High-Dimensional Problems",
+      "level": 2,
+      "parent_id": "high-d",
+      "count": 25
+    },
+    {
+      "id": "mcp",
+      "legacy_anchor": "MCP",
+      "title": "Large-Scale Multiple Testing",
+      "level": 1,
+      "parent_id": null,
+      "count": 27
+    },
+    {
+      "id": "fda",
+      "legacy_anchor": "FDA",
+      "title": "Functional Data Analysis",
+      "level": 1,
+      "parent_id": null,
+      "count": 7
+    },
+    {
+      "id": "nonparametric-inference",
+      "legacy_anchor": "Nonparametric.Inference",
+      "title": "Theory & Methodology for Nonparametric Function Estimation",
+      "level": 1,
+      "parent_id": null,
+      "count": 21
+    },
+    {
+      "id": "wavelet-thresholding",
+      "legacy_anchor": "Wavelet.Thresholding",
+      "title": "Wavelet Thresholding",
+      "level": 2,
+      "parent_id": "nonparametric-inference",
+      "count": 18
+    },
+    {
+      "id": "variance-estimation",
+      "legacy_anchor": "Variance.Estimation",
+      "title": "Variance Function Estimation",
+      "level": 2,
+      "parent_id": "nonparametric-inference",
+      "count": 4
+    },
+    {
+      "id": "functionals",
+      "legacy_anchor": "Functionals",
+      "title": "Inference for Linear, Quadratic, & Nonsmooth Functionals",
+      "level": 1,
+      "parent_id": null,
+      "count": 18
+    },
+    {
+      "id": "uncertainty",
+      "legacy_anchor": "Uncertainty",
+      "title": "Uncertainty Quantification",
+      "level": 1,
+      "parent_id": null,
+      "count": 9
+    },
+    {
+      "id": "discrete",
+      "legacy_anchor": "Discrete",
+      "title": "Inference for Discrete Distributions",
+      "level": 1,
+      "parent_id": null,
+      "count": 6
+    },
+    {
+      "id": "applications",
+      "legacy_anchor": "Applications",
+      "title": "Applications to Genomics, Chemical Identification, & Medical Imaging",
+      "level": 1,
+      "parent_id": null,
+      "count": 11
+    }
+  ]
+}

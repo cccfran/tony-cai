@@ -1,0 +1,180 @@
+{
+  "source_url": "http://www-stat.wharton.upenn.edu/~tcai/Research-Group.html",
+  "focus": "The research team is presently focused on developing methodologies and optimality theory in the fields of statistical machine learning, large-scale inference, and high-dimensional statistics. Additionally, the group is actively involved in applying these methods to areas such as genomics and financial econometrics.",
+  "current": {
+    "role": "Ph.D. Student",
+    "members": ["Junu Lee", "Kevin Jiang", "Wanteng Ma"]
+  },
+  "alumni": [
+    {
+      "name": "Wenguang Sun",
+      "role": "Ph.D. Student 2003-08",
+      "position": "Professor · Dept of Data Sciences & Operations · Marshall School of Business · University of Southern California"
+    },
+    {
+      "name": "Lie Wang",
+      "role": "Ph.D. Student 2003-08",
+      "position": "Associate Professor · Department of Mathematics · MIT · Currently at Morgan Stanley"
+    },
+    {
+      "name": "Weidong Liu",
+      "role": "Postdoc 2009-11",
+      "position": "Professor · Dept of Math & Institute of Natural Sciences · Shanghai Jiao Tong University"
+    },
+    {
+      "name": "Rossi Luo",
+      "role": "Postdoc 2009-11",
+      "position": "Assistant Professor · Department of Biostatistics · Brown University"
+    },
+    {
+      "name": "Jichun Xie",
+      "role": "Ph.D. Student 2006-11",
+      "position": "Assistant Professor · Dept of Biostatistics & Bioinformatics · Duke University"
+    },
+    {
+      "name": "Aditya Guntuboyina",
+      "role": "Postdoc 2011",
+      "position": "Assistant Professor · Department of Statistics · University of California at Berkeley"
+    },
+    {
+      "name": "Jessie Jeng",
+      "role": "Postdoc 2009-12",
+      "position": "Assistant Professor · Department of Statistics · North Carolina State University"
+    },
+    {
+      "name": "Yihong Wu",
+      "role": "Postdoc 2011-12",
+      "position": "Assistant Professor · Dept of Statistics & Data Science · Yale University"
+    },
+    {
+      "name": "Yin Xia",
+      "role": "Ph.D. Student 2008-13",
+      "position": "Professor · Department of Statistics · Fudan School of Management · Fudan University"
+    },
+    {
+      "name": "Dave Zhao",
+      "role": "Postdoc 2012-14",
+      "position": "Assistant Professor · Department of Statistics · University of Illinois at Urbana-Champaign"
+    },
+    {
+      "name": "Xiaodong Li",
+      "role": "Postdoc 2013-15",
+      "position": "Assistant Professor · Department of Statistics · University of California at Davis"
+    },
+    {
+      "name": "Anru Zhang",
+      "role": "Ph.D. Student 2010-15",
+      "position": "Associate Professor · Department of Biostatistics & Bioinformatics · Duke University"
+    },
+    {
+      "name": "Hyunseung Kang",
+      "role": "Ph.D. Student 2010-15",
+      "position": "Assistant Professor · Department of Statistics · University of Wisconsin at Madison"
+    },
+    {
+      "name": "Wanjie Wang",
+      "role": "Postdoc 2014-16",
+      "position": "Assistant Professor · Department of Statistics · National University of Singapore"
+    },
+    {
+      "name": "Qinwen Wang",
+      "role": "Postdoc 2015-16",
+      "position": "Assistant Professor · School of Data Science · Fudan University"
+    },
+    {
+      "name": "Jing Ma",
+      "role": "Postdoc 2015-17",
+      "position": "Biostatistician · Fred Hutchinson Cancer Research Center"
+    },
+    {
+      "name": "Zijian Guo",
+      "role": "Ph.D. Student 2012-17",
+      "position": "Assistant Professor · Department of Statistics · Rutgers University"
+    },
+    {
+      "name": "Tengyuan Liang",
+      "role": "Ph.D. Student 2012-17",
+      "position": "Assistant Professor · Booth School of Business · University of Chicago"
+    },
+    {
+      "name": "Dongdong Xiang",
+      "role": "Postdoc 2016-17",
+      "position": "Professor of Statistics · School of Statistics · East China Normal University"
+    },
+    {
+      "name": "Preetam Nandy",
+      "role": "Postdoc 2017-18",
+      "position": "Software Engineer-Data Mining/Machine Learning · LinkIn"
+    },
+    {
+      "name": "Linjun Zhang",
+      "role": "Ph.D. Student 2014-19",
+      "position": "Assistant Professor · Department of Statistics · Rutgers University"
+    },
+    {
+      "name": "Abhishek Chakrabortty",
+      "role": "Postdoc 2016-19",
+      "position": "Assistant Professor · Department of Statistics · Texas A&M University"
+    },
+    {
+      "name": "Shaokun Li",
+      "role": "Ph.D. Student 2015-20",
+      "position": "Pearl River Group"
+    },
+    {
+      "name": "Rong Ma",
+      "role": "Ph.D. Student 2016-21",
+      "position": "Assistant Professor · Department of Biostatistics · Harvard University"
+    },
+    {
+      "name": "Sai Li",
+      "role": "Postdoc 2018-21",
+      "position": "Assistant Professor · Institute of Statistics and Big Data · Renmin University of China"
+    },
+    {
+      "name": "Yichen Wang",
+      "role": "Ph.D. Student 2016-22",
+      "position": "Amazon Research"
+    },
+    {
+      "name": "Hongji Wei",
+      "role": "Ph.D. Student 2017-22",
+      "position": "Two Sigma"
+    },
+    {
+      "name": "Ruijia Wu",
+      "role": "Ph.D. Student 2017-22",
+      "position": "Assistant Professor · Department of Business Intelligence · Antai College of Economics and Management · Shanghai Jiao Tong University"
+    },
+    {
+      "name": "Ran Chen",
+      "role": "Ph.D. Student 2017-22",
+      "position": "Postdoc · Department of EECS · MIT"
+    },
+    {
+      "name": "Hongming Pu",
+      "role": "Ph.D. Student 2018-22",
+      "position": "Citadel"
+    },
+    {
+      "name": "Changxiao Cai",
+      "role": "Postdoc 2021-23",
+      "position": "Assistant Professor · Dept of Industrial & Operations Engineering · University of Michigan"
+    },
+    {
+      "name": "Arnab Auddy",
+      "role": "Postdoc 2023-24",
+      "position": "Assistant Professor · Department of Statistics · Ohio State University"
+    },
+    {
+      "name": "Abhinav Chakraborty",
+      "role": "Ph.D. Student 2020-25",
+      "position": "Postdoc · Department of Statistics · Columbia University"
+    },
+    {
+      "name": "Lasse Vuursteen",
+      "role": "Postdoc 2023-25",
+      "position": "Assistant Professor · Department of Statistics · Duke University"
+    }
+  ]
+}
