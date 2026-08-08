@@ -26,7 +26,6 @@ nav_order: 2
     <aside class="tc-paper-side" aria-label="Paper navigation">
       <div class="tc-paper-side-inner" data-paper-side-scroll>
         <p class="tc-paper-side-title" id="paper-year-navigation">Browse by year</p>
-        <a class="tc-paper-nav-skip" href="#paper-content">Skip navigation</a>
         <nav class="tc-paper-side-nav" aria-labelledby="paper-year-navigation" data-paper-side-nav>
           <ol class="tc-paper-year-list">
             {% for section in site.data.papers.sections %}

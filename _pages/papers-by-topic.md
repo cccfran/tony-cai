@@ -19,7 +19,6 @@ nav: false
     <aside class="tc-paper-side" aria-label="Paper navigation">
       <div class="tc-paper-side-inner" data-paper-side-scroll>
         <p class="tc-paper-side-title" id="paper-topic-navigation">Browse by topic</p>
-        <a class="tc-paper-nav-skip" href="#paper-content">Skip navigation</a>
         <nav class="tc-topic-index tc-paper-side-nav" aria-labelledby="paper-topic-navigation" data-paper-side-nav>
           <ul class="tc-topic-tree">
             {% for topic in topic_families %}
@@ -61,6 +60,10 @@ nav: false
 
 {% for topic in topic_families %}
 {% assign child_topics = paper_topics | where: "parent_id", topic.id %}
+{% assign topic_total_count = topic.count %}
+{% for child in child_topics %}
+{% assign topic_total_count = topic_total_count | plus: child.count %}
+{% endfor %}
 
 <section
       class="tc-topic-family"
@@ -70,14 +73,12 @@ nav: false
     >
 <div class="tc-paper-section-heading tc-topic-family-heading">
         <h2 id="{{ topic.id }}-heading">{{ topic.title }}</h2>
-        {% if topic.count > 0 %}
+        {% if topic_total_count > 0 %}
           <span
             class="tc-count"
-            data-paper-section-count
-            data-topic-direct-count
-            {% if child_topics.size > 0 %}data-paper-count-qualifier="direct"{% endif %}
+            data-topic-total-count
           >
-            {{- topic.count }} {% if child_topics.size > 0 %}direct {% endif %}{% if topic.count == 1 %}paper{% else %}papers{% endif -%}
+            {{- topic_total_count }} {% if topic_total_count == 1 %}paper{% else %}papers{% endif -%}
           </span>
         {% endif %}
 </div>

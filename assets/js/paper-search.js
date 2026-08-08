@@ -163,10 +163,7 @@
       sections.forEach((section) => {
         const sectionItems = Array.from(section.querySelectorAll("[data-paper-item]"));
         const visibleInSection = sectionItems.filter((item) => !item.hidden).length;
-        const family = section.closest("[data-topic-family]");
-        const count =
-          section.querySelector("[data-paper-section-count]") ||
-          (section.matches(".tc-topic-direct-papers") && family ? family.querySelector("[data-topic-direct-count]") : null);
+        const count = section.querySelector("[data-paper-section-count]");
 
         section.hidden = visibleInSection === 0;
         if (count) {
@@ -177,6 +174,10 @@
 
       topicFamilies.forEach((family) => {
         const familySections = Array.from(family.querySelectorAll("[data-paper-section]"));
+        const visibleInFamily = Array.from(family.querySelectorAll("[data-paper-item]")).filter((item) => !item.hidden).length;
+        const count = family.querySelector("[data-topic-total-count]");
+
+        if (count) count.textContent = `${visibleInFamily} ${visibleInFamily === 1 ? "paper" : "papers"}`;
         family.hidden = familySections.every((section) => section.hidden);
       });
 
