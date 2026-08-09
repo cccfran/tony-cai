@@ -1,8 +1,8 @@
 ---
 layout: tony
 permalink: /special-lectures/
-title: Special Invited Lectures
-kicker: Special lectures
+title: Special Lectures
+kicker: Special Invited lectures
 nav: true
 nav_order: 3
 ---
