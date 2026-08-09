@@ -12,6 +12,7 @@ nav_order: 8
 <!-- <div class="tc-callout">
   <p><strong>蔡天文</strong>，宾夕法尼亚大学沃顿商学院 Daniel H. Silberberg 讲席教授、统计与数据科学教授。</p>
 </div> -->
+
 <div class="tc-chinese-overview">
 <p>
 蔡天文是宾夕法尼亚大学沃顿商学院Daniel H. Silberberg统计与数据科学讲席教授。他还是宾大应用数学与计算科学研究生项目的核心成员，并在佩雷尔曼医学院生物统计学、流行病学与信息学系担任学术职务。他于1996年在康奈尔大学获得统计学博士学位。
@@ -37,6 +38,7 @@ nav_order: 8
 蔡教授曾荣获多项重要学术荣誉，包括国际数理统计学会Wald纪念奖与讲座、COPSS总统奖、美国统计学会Noether杰出学者奖、美国统计学会Leo Breiman资深奖、国际数理统计学会奖章讲座、剑桥大学Peter Whittle讲座、Bernoulli学会Laplace讲座，以及泛华统计学会杰出成就奖。他是国际数理统计学会（IMS）与美国科学促进会（AAAS）会士，曾任国际数理统计学会主席及泛华统计学会主席。在学术编辑方面亦贡献卓著，曾担任《统计年刊》（The Annals of Statistics）联合主编，并长期担任《统计年刊》、《美国统计学会会刊》（JASA）和《皇家统计学会会刊B辑》（JRSS-B）等顶级期刊副主编。
 </p>
 </div>
+
 <div class="tc-fact-grid">
   <section class="tc-fact">
     <h2>教育背景</h2>
