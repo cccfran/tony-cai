@@ -12,7 +12,7 @@ nav_order: 8
 <!-- <div class="tc-callout">
   <p><strong>蔡天文</strong>，宾夕法尼亚大学沃顿商学院 Daniel H. Silberberg 讲席教授、统计与数据科学教授。</p>
 </div> -->
-<div class="tc-callout">
+<div class="tc-chinese-overview">
 <p>
 蔡天文是宾夕法尼亚大学沃顿商学院Daniel H. Silberberg统计与数据科学讲席教授。他还是宾大应用数学与计算科学研究生项目的核心成员，并在佩雷尔曼医学院生物统计学、流行病学与信息学系担任学术职务。他于1996年在康奈尔大学获得统计学博士学位。
 </p>
