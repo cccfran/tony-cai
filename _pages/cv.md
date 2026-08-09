@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 description: Curriculum vitae of T. Tony Cai (PDF).
 nav: true
-nav_order: 8
+nav_order: 7
 redirect: /assets/pdf/Tony-Cai-CV-short.pdf
 ---
 

@@ -65,7 +65,12 @@ nav_order: 2
 <ol class="tc-paper-list">
 {% for paper in section.papers %}
 {% capture paper_instance_id %}paper-{{ section.id }}-{{ paper.id }}{% endcapture %}
-{% include paper-item.liquid paper=paper instance_id=paper_instance_id %}
+{% if section.id == 'reports' %}
+{% assign paper_display_number = forloop.index %}
+{% else %}
+{% assign paper_display_number = paper.cv_number | plus: site.data.papers.technical_report_count %}
+{% endif %}
+{% include paper-item.liquid paper=paper instance_id=paper_instance_id number=paper_display_number %}
 {% endfor %}
 </ol>
 </section>

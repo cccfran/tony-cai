@@ -4,7 +4,7 @@ permalink: /team/
 title: My Team
 kicker: Research group
 nav: true
-nav_order: 5
+nav_order: 4
 ---
 
 <div class="tc-callout">

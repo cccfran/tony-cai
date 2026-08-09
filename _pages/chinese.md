@@ -6,7 +6,7 @@ kicker: 中文版本
 description: 宾夕法尼亚大学沃顿商学院 Daniel H. Silberberg 讲席教授、统计与数据科学教授
 lang: zh-CN
 nav: true
-nav_order: 9
+nav_order: 8
 ---
 
 <!-- <div class="tc-callout">

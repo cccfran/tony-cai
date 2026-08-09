@@ -34,7 +34,7 @@ description: Tony Cai is the Daniel H. Silberberg Professor and Professor of Sta
 <section class="tc-bio-band" aria-labelledby="research-at-the-frontiers">
   <div class="tc-shell tc-bio-grid">
     <div>
-      <h2 id="research-at-the-frontiers">At the frontiers of statistical science</h2>
+      <h2 id="research-at-the-frontiers">At the frontiers of statistics and data science</h2>
     </div>
     <div class="tc-bio-copy">
       <p>
@@ -88,6 +88,12 @@ description: Tony Cai is the Daniel H. Silberberg Professor and Professor of Sta
             265 South 37th Street<br>
             Philadelphia, PA 19104
           </address>
+          <p class="tc-contact-scholar">
+            <a href="https://scholar.google.com/citations?user=v1MTZmIAAAAJ&amp;hl=en&amp;oi=ao">
+              <i class="ai ai-google-scholar" aria-hidden="true"></i>
+              <span>Google Scholar</span>
+            </a>
+          </p>
         </aside>
       </div>
     </section>
@@ -115,6 +121,7 @@ description: Tony Cai is the Daniel H. Silberberg Professor and Professor of Sta
         <a class="tc-section-link" href="{{ '/biosketch/' | relative_url }}">Complete biosketch</a>
       </div>
       <ul class="tc-honors-list">
+        <li><span class="tc-honor-year">2027</span><span>Wald Memorial Award and Lecture, Institute of Mathematical Statistics</span></li>
         <li><span class="tc-honor-year">2026</span><span>Leo Breiman Senior Award, American Statistical Association</span></li>
         <li><span class="tc-honor-year">2026</span><span>Best Paper Award (Gold), International Congress of Chinese Mathematicians</span></li>
         <li><span class="tc-honor-year">2023–26</span><span>President-elect, President, Past President, Institute of Mathematical Statistics</span></li>

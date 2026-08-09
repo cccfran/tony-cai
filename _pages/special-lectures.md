@@ -4,7 +4,7 @@ permalink: /special-lectures/
 title: Special Lectures
 kicker: Invited lectures
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
 <ol class="tc-lecture-list">

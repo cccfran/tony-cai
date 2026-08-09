@@ -49,7 +49,12 @@
                 {% for paper in source_section.papers %}
                   {% if paper.id == paper_id %}
                     {% capture paper_instance_id %}lecture-{{ lecture.id }}-{{ paper.id }}{% endcapture %}
-                    {% include paper-item.liquid paper=paper instance_id=paper_instance_id %}
+                    {% if source_section.id == 'reports' %}
+                      {% assign paper_display_number = forloop.index %}
+                    {% else %}
+                      {% assign paper_display_number = paper.cv_number | plus: site.data.papers.technical_report_count %}
+                    {% endif %}
+                    {% include paper-item.liquid paper=paper instance_id=paper_instance_id number=paper_display_number %}
                   {% endif %}
                 {% endfor %}
               {% endfor %}

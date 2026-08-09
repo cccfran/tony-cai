@@ -4,7 +4,7 @@ permalink: /biosketch/
 title: Biosketch
 kicker: Profile
 nav: true
-nav_order: 7
+nav_order: 1
 ---
 
 <div class="tc-biosketch-overview">
@@ -59,13 +59,13 @@ nav_order: 7
   </p>
 
   <p>
-    Among his honors are the COPSS Presidents’ Award, the Noether Distinguished Scholar Award, the Leo Breiman Senior Award,
-    the IMS Medallion Lecture, the Peter Whittle Lecture, the Laplace Lecture of the Bernoulli Society, and the International
-    Chinese Statistical Association Distinguished Achievement Award. He is a Fellow of the Institute of Mathematical
-    Statistics and the American Association for the Advancement of Science, and has served as President of both the Institute
-    of Mathematical Statistics and the International Chinese Statistical Association. He has also contributed extensively to
-    the profession through editorial service, including as Co-Editor of <em>The Annals of Statistics</em> and as Associate
-    Editor of leading journals such as <em>The Annals of Statistics</em>,
+    Among his honors are the Wald Memorial Award and Lecture, the COPSS Presidents’ Award, the Noether Distinguished Scholar
+    Award, the Leo Breiman Senior Award, the IMS Medallion Lecture, the Peter Whittle Lecture, the Laplace Lecture of the
+    Bernoulli Society, and the International Chinese Statistical Association Distinguished Achievement Award. He is a Fellow
+    of the Institute of Mathematical Statistics and the American Association for the Advancement of Science, and has served
+    as President of both the Institute of Mathematical Statistics and the International Chinese Statistical Association. He
+    has also contributed extensively to the profession through editorial service, including as Co-Editor of
+    <em>The Annals of Statistics</em> and as Associate Editor of leading journals such as <em>The Annals of Statistics</em>,
     <em>Journal of the American Statistical Association</em>, and
     <em>Journal of the Royal Statistical Society, Series B</em>.
   </p>
@@ -102,6 +102,7 @@ nav_order: 7
 
 <h2>Honors &amp; awards</h2>
 <ul class="tc-honors-list">
+  <li><span class="tc-honor-year">2027</span><span>Wald Memorial Award and Lecture, Institute of Mathematical Statistics</span></li>
   <li><span class="tc-honor-year">2026</span><span>Leo Breiman Senior Award, American Statistical Association</span></li>
   <li><span class="tc-honor-year">2026</span><span>Best Paper Award (Gold), International Congress of Chinese Mathematicians</span></li>
   <li><span class="tc-honor-year">2023–26</span><span>President-elect, President, Past President, Institute of Mathematical Statistics</span></li>

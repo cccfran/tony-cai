@@ -78,7 +78,9 @@
       const offset = viewportOffset();
       let current = visiblePairs[0];
       visiblePairs.forEach((pair) => {
-        if (pair.heading.getBoundingClientRect().top <= offset) current = pair;
+        const scrollMargin = Number.parseFloat(window.getComputedStyle(pair.target).scrollMarginTop) || 0;
+        const activationLine = Math.max(offset, scrollMargin) + 1;
+        if (pair.heading.getBoundingClientRect().top <= activationLine) current = pair;
       });
       setCurrent(current);
     };

@@ -4,7 +4,7 @@ permalink: /software/
 title: Software
 kicker: Research tools
 nav: true
-nav_order: 3
+nav_order: 5
 ---
 
 <ul class="tc-software-list">

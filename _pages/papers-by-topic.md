@@ -90,7 +90,12 @@ nav: false
               {% for paper in source_section.papers %}
                 {% if paper.topics contains topic.id %}
                   {% capture paper_instance_id %}paper-{{ topic.id }}-{{ paper.id }}{% endcapture %}
-                  {% include paper-item.liquid paper=paper instance_id=paper_instance_id topics=topic.title %}
+                  {% if source_section.id == 'reports' %}
+                    {% assign paper_display_number = forloop.index %}
+                  {% else %}
+                    {% assign paper_display_number = paper.cv_number | plus: site.data.papers.technical_report_count %}
+                  {% endif %}
+                  {% include paper-item.liquid paper=paper instance_id=paper_instance_id topics=topic.title number=paper_display_number %}
                 {% endif %}
               {% endfor %}
             {% endfor %}
@@ -118,7 +123,12 @@ nav: false
                   {% for paper in source_section.papers %}
                     {% if paper.topics contains child.id %}
                       {% capture paper_instance_id %}paper-{{ child.id }}-{{ paper.id }}{% endcapture %}
-                      {% include paper-item.liquid paper=paper instance_id=paper_instance_id topics=child.title %}
+                      {% if source_section.id == 'reports' %}
+                        {% assign paper_display_number = forloop.index %}
+                      {% else %}
+                        {% assign paper_display_number = paper.cv_number | plus: site.data.papers.technical_report_count %}
+                      {% endif %}
+                      {% include paper-item.liquid paper=paper instance_id=paper_instance_id topics=child.title number=paper_display_number %}
                     {% endif %}
                   {% endfor %}
                 {% endfor %}

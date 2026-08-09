@@ -304,12 +304,12 @@ html[data-theme="dark"] .tc-button-secondary {
 }
 
 .tc-home-panel {
-  padding-block: 5rem 5.8rem;
+  padding-block: 3rem 3.6rem;
   background: var(--global-bg-color);
 }
 
 .tc-section {
-  margin-top: 5rem;
+  margin-top: 2.4rem;
 }
 
 .tc-section:first-child {
@@ -321,8 +321,8 @@ html[data-theme="dark"] .tc-button-secondary {
   align-items: end;
   justify-content: space-between;
   gap: 1.5rem;
-  margin-bottom: 1.7rem;
-  padding-bottom: 1rem;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.7rem;
   border-bottom: 1px solid var(--tc-line);
 }
 
@@ -350,7 +350,7 @@ html[data-theme="dark"] .tc-section-link {
 
 .tc-two-column {
   display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+  grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr);
   gap: 2rem;
 }
 
@@ -387,7 +387,7 @@ html[data-theme="dark"] .tc-section-link {
 
 .tc-appointment-list li {
   position: relative;
-  padding: 0 0 1.2rem 1.15rem;
+  padding: 0 0 0.85rem 1.15rem;
   color: var(--global-text-color);
   line-height: 1.55;
 }
@@ -421,7 +421,7 @@ html[data-theme="dark"] .tc-section-link {
 
 .tc-contact-card p,
 .tc-contact-card address {
-  margin: 0 0 1rem;
+  margin: 0 0 0.75rem;
   color: #edf7fc;
   font-style: normal;
   line-height: 1.6;
@@ -432,15 +432,37 @@ html[data-theme="dark"] .tc-section-link {
   margin-bottom: 0;
 }
 
+.tc-contact-card .tc-contact-scholar a,
+.tc-contact-card .tc-contact-scholar a:visited {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff;
+}
+
+.tc-contact-card .tc-contact-scholar span,
+.tc-contact-card .tc-contact-scholar i,
+.tc-contact-card .tc-contact-scholar i::before {
+  display: inline-block;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff;
+}
+
+.tc-contact-card .tc-contact-scholar i {
+  font-size: 1rem;
+  text-align: center;
+}
+
 .tc-interest-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.85rem;
+  gap: 0.6rem;
 }
 
 .tc-interest-list li {
-  min-height: 4rem;
-  padding: 1rem 1.1rem;
+  min-height: 3.4rem;
+  padding: 0.8rem 1rem;
   border-left: 4px solid var(--tc-blue);
   color: var(--tc-ink);
   background: var(--tc-wash);
@@ -517,6 +539,10 @@ html[data-theme="dark"] .tc-paper-card .tc-paper-status {
   border-bottom: 1px solid var(--tc-line);
 }
 
+.tc-home .tc-honors-list li {
+  padding-block: 0.8rem;
+}
+
 .tc-honors-list li:nth-child(odd) {
   border-right: 1px solid var(--tc-line);
 }
@@ -532,7 +558,7 @@ html[data-theme="dark"] .tc-honor-year {
 
 .tc-link-list {
   display: grid;
-  gap: 0.75rem;
+  gap: 0.55rem;
 }
 
 .tc-link-list a {
@@ -540,7 +566,7 @@ html[data-theme="dark"] .tc-honor-year {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 0.95rem 1.05rem;
+  padding: 0.75rem 0.95rem;
   border: 1px solid var(--tc-line);
   color: var(--tc-ink);
   background: var(--tc-paper);
@@ -562,8 +588,8 @@ html[data-theme="dark"] .tc-honor-year {
   align-items: center;
   justify-content: center;
   gap: 0.65rem;
-  margin-top: 4rem;
-  padding-top: 1.5rem;
+  margin-top: 2.5rem;
+  padding-top: 1rem;
   border-top: 1px solid var(--tc-line);
   color: var(--tc-muted);
   font-size: 0.76rem;
@@ -1129,6 +1155,12 @@ html[data-theme="dark"] .tc-topic-tree > li.is-active-ancestor > a {
   background: var(--tc-wash);
 }
 
+.tc-paper-number {
+  margin-right: 0.3rem;
+  color: inherit;
+  font: inherit;
+}
+
 .tc-paper-authors,
 .tc-paper-list .tc-paper-venue {
   margin: 0;
@@ -1426,7 +1458,7 @@ html[data-theme="dark"] .tc-paper-pdf-pill {
   }
 }
 
-@media (max-width: 900px) and (min-width: 576px) {
+@media (max-width: 1180px) and (min-width: 576px) {
   #navbar.navbar-expand-sm .navbar-toggler {
     display: block;
     margin-left: auto;
@@ -1613,11 +1645,11 @@ html[data-theme="dark"] .tc-paper-pdf-pill {
   }
 
   .tc-home-panel {
-    padding-block: 3.4rem 4.3rem;
+    padding-block: 2.2rem 2.8rem;
   }
 
   .tc-section {
-    margin-top: 3.6rem;
+    margin-top: 2rem;
   }
 
   .tc-section-heading {
