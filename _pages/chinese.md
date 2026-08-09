@@ -68,6 +68,50 @@ nav_order: 8
   </section>
 </div>
 
+<h2 id="chinese-special-lecture-heading">国际数理统计学会主席致辞</h2>
+<ol class="tc-lecture-list" aria-labelledby="chinese-special-lecture-heading">
+  <li class="tc-lecture-card" data-disclosure-item>
+    <p class="tc-lecture-meta">联合统计会议（JSM 2025）</p>
+    <div class="tc-paper-title-row tc-lecture-title-row">
+      <h2>
+        <button
+          class="tc-paper-title-toggle"
+          id="chinese-ims-presidential-address-2025-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="chinese-ims-presidential-address-2025-details"
+          data-paper-toggle
+        >
+          处在十字路口的统计学：人工智能时代的挑战与机遇
+        </button>
+      </h2>
+      <a
+        class="tc-paper-pdf-pill"
+        href="{{ '/assets/pdf/lectures/IMS_Presidential_Address_Chinese.pdf' | relative_url }}"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="打开《处在十字路口的统计学：人工智能时代的挑战与机遇》PDF"
+        >PDF</a
+      >
+    </div>
+    <div
+      class="tc-paper-abstract-panel tc-lecture-detail-panel"
+      id="chinese-ims-presidential-address-2025-details"
+      role="region"
+      aria-labelledby="chinese-ims-presidential-address-2025-toggle"
+      data-paper-panel
+      hidden
+    >
+      <p class="tc-paper-abstract-label">摘要</p>
+      <div class="tc-lecture-abstract-copy">
+        <p class="tc-paper-abstract">
+          当今世界正经历一场深刻的技术变革，其驱动力来自海量数据的爆炸式增长和以数据为驱动的人工智能的飞速发展。这场变革的核心正是统计学、机器学习与人工智能——这些强大的工具正在重塑我们的工作、生活和沟通方式。数据科学几乎在推动着每一个领域的创新。这一前所未有的转变，无论是在研究还是教育方面，都为统计学领域带来了巨大的机遇。随着对数据驱动洞察的需求不断增长，统计学家和数据科学家的角色变得愈发重要。在本次演讲中，我将探讨统计学在人工智能时代所面临的紧迫挑战与激动人心的机遇。
+        </p>
+      </div>
+    </div>
+  </li>
+</ol>
+
 <h2 id="chinese-editorial-heading">学术期刊编委会</h2>
 <div class="tc-table-wrap">
   <table class="tc-table" aria-labelledby="chinese-editorial-heading">
@@ -90,6 +134,7 @@ nav_order: 8
 
 <h2>主要荣誉</h2>
 <ul class="tc-honors-list">
+  <li><span class="tc-honor-year">2027</span><span>国际数理统计学会 Wald 纪念奖与讲座</span></li>
   <li><span class="tc-honor-year">2026</span><span>美国统计学会 Leo Breiman 奖</span></li>
   <li><span class="tc-honor-year">2026</span><span>世界华人数学家大会最佳论文金奖</span></li>
   <li><span class="tc-honor-year">2023–26</span><span>国际数理统计学会（IMS）候任主席（2023–2024）、主席（2024–2025）及前任主席（2025–2026）</span></li>
@@ -114,3 +159,5 @@ nav_order: 8
 
 <h2>联系信息</h2>
 <p>电话：215-898-8224 · 电邮：<a href="mailto:tcai@wharton.upenn.edu">tcai@wharton.upenn.edu</a></p>
+
+<script defer src="{{ '/assets/js/paper-search.js' | relative_url }}"></script>

@@ -22,6 +22,16 @@
         {{ lecture.title | escape }}
       {% endif %}
     </h2>
+    {% if lecture.pdf_url %}
+      <a
+        class="tc-paper-pdf-pill"
+        href="{{ lecture.pdf_url | relative_url }}"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Open PDF: {{ lecture.title | escape }}"
+        >PDF</a
+      >
+    {% endif %}
   </div>
 
   {% if lecture.abstract %}

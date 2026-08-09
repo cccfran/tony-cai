@@ -1334,8 +1334,10 @@ html[data-theme="dark"] .tc-paper-pdf-pill {
   margin-bottom: 3rem;
 }
 
-.tc-biosketch-overview p {
+.tc-biosketch-overview > p {
   line-height: 1.75;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .tc-fact {

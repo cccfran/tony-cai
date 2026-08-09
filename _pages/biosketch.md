@@ -64,7 +64,7 @@ nav_order: 1
     Bernoulli Society, and the International Chinese Statistical Association Distinguished Achievement Award. He is a Fellow
     of the Institute of Mathematical Statistics and the American Association for the Advancement of Science, and has served
     as President of both the Institute of Mathematical Statistics and the International Chinese Statistical Association. He
-    has also contributed extensively to the profession through editorial service, including as Co-Editor of
+    has also contributed extensively to the profession through editorial service, including serving as Co-Editor of
     <em>The Annals of Statistics</em> and as Associate Editor of leading journals such as <em>The Annals of Statistics</em>,
     <em>Journal of the American Statistical Association</em>, and
     <em>Journal of the Royal Statistical Society, Series B</em>.

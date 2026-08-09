@@ -1,9 +1,111 @@
 lectures:
+  - id: iccm-plenary-2026
+    lecture: Plenary Lecture
+    institution: International Congress of Chinese Mathematicians, Shanghai
+    date: January 2026
+    title: "Federated Learning for Density Estimation under Differential Privacy: Framework, Minimax Rate, and Cost of Adaptation"
+    abstract:
+      - >-
+        Privacy-preserving data analysis has become a central challenge in modern statistics, and federated learning has
+        increasingly attracted attention in both statistics and machine learning. In this talk, we study minimax and adaptive
+        federated learning under differential privacy (FDP) in the context of density estimation, considering both global and
+        pointwise estimation over Besov spaces.
+      - >-
+        We first establish minimax rates of convergence under FDP and propose optimal distributed, privacy-preserving
+        estimators. Our results uncover phase-transition phenomena that highlight the trade-offs between statistical accuracy
+        and privacy, showing how privacy budgets, the number of servers, and sample size jointly determine achievable
+        performance.
+      - >-
+        We then turn to adaptive estimation when the smoothness parameters are unknown. We derive sharp characterizations of
+        the cost of adaptation under FDP for both global and pointwise estimation and introduce an adaptive estimator based on
+        a new noise mechanism that enables one-shot adaptation via post-processing. This method provides strict improvements
+        over existing adaptive DP approaches.
+      - >-
+        Our findings reveal a striking contrast between private and non-private settings. For global estimation, where
+        adaptation can be achieved for free in the classical non-private setting, we prove that under FDP an intrinsic
+        adaptation cost is unavoidable. For pointwise estimation, where a logarithmic penalty is already known to arise in the
+        non-private setting, we show that FDP introduces an additional logarithmic factor, thereby compounding the cost of
+        adaptation. Taken together, these results provide the first rigorous characterization of the adaptive privacy-accuracy
+        trade-off.
+    paper_ids:
+      - the-cost-of-adaptation-under-differential-privacy-optimal-adaptive-federated-density-estimation
+
+  - id: ims-presidential-address-2025
+    lecture: IMS Presidential Address
+    institution: Joint Statistics Meetings, Nashville
+    date: August 2025
+    title: "Statistics at the Crossroads: Challenges and Opportunities in the Age of AI"
+    pdf_url: /assets/pdf/lectures/IMS_Presidential_Address.pdf
+    abstract:
+      - >-
+        The world is undergoing a profound technological transformation, driven by the explosive growth of Big Data and
+        advances in data-driven AI. At the heart of this revolution lie Statistics, Machine Learning, and AI—powerful tools
+        that are reshaping how we work, live, and communicate. Data science is driving innovation across virtually every
+        sector. This unprecedented shift brings immense opportunities for the field of Statistics, both in research and
+        education. As the demand for data-driven insights grows, the role of statisticians and data scientists has become
+        increasingly vital. In this talk, I will discuss the pressing challenges and exciting opportunities facing the field
+        of Statistics in the Age of AI.
+
+  - id: icbs-plenary-2025
+    lecture: Plenary Lecture
+    institution: International Congress of Basic Science, Beijing
+    date: July 2025
+    title: "Transcending Data Boundaries: Transfer Knowledge in Statistical Learning"
+    abstract:
+      - >-
+        In this talk, we consider minimax and adaptive transfer learning for nonparametric classification under the posterior
+        drift model with distributed differential privacy constraints. We first establish the minimax misclassification rate,
+        precisely characterizing the effects of privacy constraints, source samples, and target samples on classification
+        accuracy. The results reveal interesting phase transition phenomena and highlight the intricate trade-offs between
+        preserving privacy and achieving classification accuracy. We then develop a data-driven adaptive classifier that
+        achieves the optimal rate within a logarithmic factor across a large collection of parameter spaces while satisfying
+        the same set of differential privacy constraints. Simulation studies and real-world data applications further
+        elucidate the theoretical analysis with numerical results.
+    paper_ids:
+      - minimax-and-adaptive-transfer-learning-for-nonparametric-classification-under-distributed-differential-privacy-constraints
+
+  - id: bahadur-2024
+    lecture: Bahadur Lecture
+    institution: Conference on Theory and Foundations of Statistics in the Era of Big Data, Tallahassee
+    date: April 2024
+    title: "Federated Learning for Nonparametric Function Estimation: Framework and Optimality"
+    abstract:
+      - >-
+        Federated learning is a machine learning paradigm designed to tackle the challenges of data governance and privacy. It
+        enables organizations (e.g., hospitals) to collaboratively train and enhance a shared global statistical model without
+        sharing raw data externally. Instead, the learning process occurs locally at each participating entity, and only model
+        characteristics, such as parameters and gradients, are exchanged, while preserving privacy.
+      - >-
+        In this talk, we consider statistical optimality for federated learning in the context of nonparametric regression. The
+        setting we study is heterogeneous, encompassing varying sample sizes and differential privacy constraints across
+        different servers. Within this framework, both global and pointwise estimation are considered, and optimal rates of
+        convergence over the Besov spaces are established.
+      - >-
+        We propose distributed privacy-preserving estimation procedures and analyze their theoretical properties. The findings
+        shed light on the delicate balance between accuracy and privacy preservation. In particular, we characterize the
+        compromise not only in terms of the privacy budget but also concerning the loss incurred by distributing data within
+        the privacy framework as a whole. This insight captures the folklore wisdom that it is easier to retain privacy in
+        larger samples, and explores the differences between pointwise and global estimation under distributed privacy
+        constraints.
+    paper_ids:
+      - optimal-federated-learning-for-nonparametric-regression-with-heterogenous-distributed-differential-privacy-constraints
+
   - id: distinguished-scientist-2023
     lecture: Distinguished Scientist Hall Lecture
-    institution: Chinese Academy of Sciences
+    institution: Chinese Academy of Sciences, Beijing
     date: October 2023
     title: "When Statistics Meets Computing: A Few Interesting Problems and Challenges"
+    abstract:
+      - >-
+        In the conventional statistical framework, a major goal is to develop optimal statistical procedures based on the
+        sample size and statistical model. However, in many contemporary applications, non-statistical concerns such as
+        privacy, communication, and computational constraints associated with the statistical procedures become crucial. This
+        raises a fundamental question in data science: how can we make optimal statistical inference under these
+        non-statistical constraints?
+      - >-
+        In this talk, we explore recent advances in differentially private learning and distributed learning under
+        communication constraints in a few specific settings. Our results demonstrate novel and interesting phenomena and
+        suggest directions for further investigation.
 
   - id: noether-2023
     lecture: Gottfried E. Noether Award Lecture
@@ -18,10 +120,20 @@ lectures:
       - distributed-nonparametric-regression-optimal-rate-of-convergence-and-cost-of-adaptation
 
   - id: herman-rubin-2023
-    lecture: Herman Rubin Lecture
+    lecture: Herman Rubin Distinguished Lecture
     institution: Purdue University
     date: April 2023
     title: Optimal Statistical Estimation under Nonstatistical Constraints
+    abstract:
+      - >-
+        In the conventional statistical framework, a major goal is to develop optimal statistical procedures based on the
+        sample size and statistical model. However, in many contemporary applications, non-statistical concerns such as privacy
+        and communication constraints associated with the statistical procedures become crucial. This raises a fundamental
+        question in data science: how can we make optimal statistical inference under these non-statistical constraints?
+      - >-
+        In this talk, we explore recent advances in differentially private learning and distributed learning under
+        communication constraints in a few specific settings. Our results demonstrate novel and interesting phenomena and
+        suggest directions for further investigation.
 
   - id: laplace-2021
     lecture: Laplace Lecture of the Bernoulli Society
@@ -140,7 +252,10 @@ lectures:
     date: August 2009
     title: "High-Dimensional Inference: Sparse Signal Recovery and Covariance Matrix Estimation"
     abstract:
-      - The lecture considers two central high-dimensional problems: recovering a sparse signal from relatively few noisy measurements and estimating a large covariance matrix. For sparse recovery, it studies constrained l1 minimization under restricted-isometry and mutual-incoherence conditions.
+      - >-
+        The lecture considers two central high-dimensional problems: recovering a sparse signal from relatively few noisy
+        measurements and estimating a large covariance matrix. For sparse recovery, it studies constrained l1 minimization
+        under restricted-isometry and mutual-incoherence conditions.
       - A unified analysis covers noiseless, bounded-error, and Gaussian-noise settings. The shifting inequality provides a simple route to identifiability, stable recovery, and oracle guarantees.
       - For covariance matrices, the lecture establishes optimal convergence rates under operator, Frobenius, and matrix l1 losses. The results show that optimal row-by-row estimation need not produce an optimal matrix estimator and require new minimax lower-bound constructions.
     paper_ids:
