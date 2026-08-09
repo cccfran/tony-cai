@@ -2,7 +2,7 @@
 layout: tony
 title: Home
 permalink: /
-description: T. Tony Cai is the Daniel H. Silberberg Professor of Statistics and Data Science at the Wharton School.
+description: Tony Cai is the Daniel H. Silberberg Professor and Professor of Statistics and Data Science at Wharton.
 ---
 
 <section class="tc-hero" aria-labelledby="tony-cai-title">
@@ -17,8 +17,6 @@ description: T. Tony Cai is the Daniel H. Silberberg Professor of Statistics and
         <a class="tc-button tc-button-secondary" href="{{ '/biosketch/' | relative_url }}">View biosketch</a>
       </nav> -->
     </div>
-
-    <div class="tc-hero-slash" aria-hidden="true"></div>
 
     <figure class="tc-portrait">
       <img
@@ -40,11 +38,11 @@ description: T. Tony Cai is the Daniel H. Silberberg Professor of Statistics and
     </div>
     <div class="tc-bio-copy">
       <p>
-        T. Tony Cai is the Daniel H. Silberberg Professor of Statistics and Data Science at the Wharton School of the
-        University of Pennsylvania. He has received numerous honors, including the COPSS Presidents’ Award, and is a Fellow
-        of the American Association for the Advancement of Science (AAAS) and the Institute of Mathematical Statistics (IMS).
-        He served successively as president-elect, president, and past president of IMS (2023–2026) and the International
-        Chinese Statistical Association (ICSA; 2016–2018), and was Vice Dean of the Wharton School from 2017 to 2020.
+        Tony Cai is the Daniel H. Silberberg Professor and Professor of Statistics and Data Science at Wharton. His research
+        develops statistical foundations for modern data science and AI, with emphasis on high-dimensional statistics,
+        transfer learning, differential privacy, federated learning, causal inference, and large-scale inference. His work
+        combines sharp theory with practical methodology and has influenced statistics, machine learning, genomics,
+        biomedical science, and data-driven scientific discovery.
       </p>
       <!-- <div class="tc-topic-row" role="list" aria-label="Primary research areas">
         <span role="listitem">Statistical machine learning</span>

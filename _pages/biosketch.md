@@ -7,6 +7,70 @@ nav: true
 nav_order: 7
 ---
 
+<div class="tc-biosketch-overview">
+  <p>
+    Tony Cai is the Daniel H. Silberberg Professor and Professor of Statistics and Data Science at the Wharton School of the
+    University of Pennsylvania. He is also affiliated with the Applied Mathematics and Computational Science Graduate Group
+    and the Department of Biostatistics, Epidemiology, and Informatics in the Perelman School of Medicine. He received his
+    Ph.D. in Statistics from Cornell University in 1996.
+  </p>
+
+  <p>
+    Cai’s research develops statistical foundations for modern data science and AI, with current emphasis on transfer
+    learning, differential privacy, federated and distributed learning, causal inference, and high-dimensional statistics. A
+    central theme is reliable learning from heterogeneous, sensitive, and decentralized data: how information from related
+    populations can improve a target analysis, how privacy and communication constraints affect statistical accuracy, and
+    how methods can adapt to new settings without negative transfer. These questions arise naturally in modern scientific
+    and technological applications, where data are often distributed across institutions, populations, studies, and devices,
+    and where reliable conclusions must be drawn while respecting privacy and accounting for heterogeneity.
+  </p>
+
+  <p>
+    His recent work develops decision-theoretic and minimax frameworks for privacy-preserving and federated estimation,
+    testing, transfer learning, and individualized treatment decisions. These questions are increasingly important for AI,
+    where modern systems must learn from large, distributed, and heterogeneous data sources while respecting privacy,
+    reliability, and resource constraints. His work contributes statistical foundations for trustworthy AI by clarifying
+    when learning is possible, what information is fundamentally required, and how optimal procedures can be designed under
+    such constraints. These ideas are relevant to applications in biomedical research, public health, genomics, finance,
+    decentralized learning systems, and large-scale scientific collaboration.
+  </p>
+
+  <p>
+    Cai’s research contributions span several major areas of modern statistics. He has developed influential theory and
+    methodology for high-dimensional covariance and precision-matrix estimation, sparse PCA, graphical models, regression,
+    and high-dimensional testing, as well as for nonparametric estimation, adaptation, and uncertainty quantification. His
+    work on large-scale multiple testing addresses power and false discovery control in complex high-dimensional settings,
+    while contributions to binomial confidence intervals, singular-subspace perturbation theory, and the theoretical analysis
+    of t-SNE have provided widely used tools and benchmarks. Many of these contributions also support modern AI and machine
+    learning, particularly through their treatment of high-dimensional structure, spectral methods, dimension reduction,
+    uncertainty, and reliable inference from complex data.
+  </p>
+
+  <p>
+    His work has had substantial impact on applied science. The Brown–Cai–DasGupta paper on binomial confidence intervals, for
+    example, has received more than 4,800 citations and is widely used in medicine, public health, clinical trials,
+    epidemiology, quality control, genetics, and related fields. His research has contributed significantly to genomics,
+    including large-scale multiple testing, differential co-expression analysis, and gene-network inference, where rigorous
+    statistical methods are essential for reliable scientific discovery. Across these areas, Cai’s work combines sharp theory
+    with practically motivated methodology, developing statistically optimal and adaptive procedures together with a precise
+    understanding of the limits of what can be achieved under high dimensionality, structural complexity, privacy,
+    communication, and heterogeneity. Taken together, his research has influenced statistical theory, machine learning,
+    biomedical science, genomics, and data-driven scientific discovery.
+  </p>
+
+  <p>
+    Among his honors are the COPSS Presidents’ Award, the Noether Distinguished Scholar Award, the Leo Breiman Senior Award,
+    the IMS Medallion Lecture, the Peter Whittle Lecture, the Laplace Lecture of the Bernoulli Society, and the International
+    Chinese Statistical Association Distinguished Achievement Award. He is a Fellow of the Institute of Mathematical
+    Statistics and the American Association for the Advancement of Science, and has served as President of both the Institute
+    of Mathematical Statistics and the International Chinese Statistical Association. He has also contributed extensively to
+    the profession through editorial service, including as Co-Editor of <em>The Annals of Statistics</em> and as Associate
+    Editor of leading journals such as <em>The Annals of Statistics</em>,
+    <em>Journal of the American Statistical Association</em>, and
+    <em>Journal of the Royal Statistical Society, Series B</em>.
+  </p>
+</div>
+
 <div class="tc-fact-grid">
   <section class="tc-fact">
     <h2>Education</h2>

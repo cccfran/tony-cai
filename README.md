@@ -4,6 +4,8 @@ Source for [tony-cai.com](https://tony-cai.com), the academic website of T. Tony
 
 The site is built with Jekyll and the al-folio runtime. Website content is maintained in `_pages/` and `_data/`; custom presentation and interactions live in `_layouts/`, `_includes/`, and `assets/`.
 
+For routine content changes—especially papers and CV updates—see the [website editing guide](EDITING.md).
+
 ## Local preview
 
 ```bash
@@ -29,4 +31,4 @@ The root `CNAME` file and `_config.yml` both identify the production domain as `
 
 ## Updating research data
 
-The maintenance scripts in `bin/` refresh legacy content and paper metadata. Review generated changes in `_data/` before committing them.
+Follow the manual workflow in [EDITING.md](EDITING.md). The scripts in `bin/` are advanced importers that overwrite data and require careful review.

@@ -37,7 +37,7 @@ max_width: 1180px
 # Open Graph and Schema.org metadata
 serve_og_meta: true
 serve_schema_org: true
-og_image: /assets/img/tony-cai-og.png
+og_image: /assets/img/tony-cai-og-2026-08.png
 
 # Jekyll
 markdown: kramdown
