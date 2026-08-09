@@ -139,11 +139,11 @@ html[data-theme="dark"] .tc-hero {
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 5rem minmax(230px, 285px);
+  grid-template-columns: minmax(0, 1fr) minmax(230px, 285px);
   align-items: center;
   min-height: 318px;
   padding-block: 1.4rem;
-  gap: 0;
+  gap: 5rem;
 }
 
 .tc-hero-copy {
@@ -186,19 +186,6 @@ html[data-theme="dark"] .tc-role {
   flex-wrap: wrap;
   gap: 0.75rem;
   margin-top: 1.8rem;
-}
-
-.tc-hero-slash {
-  justify-self: center;
-  width: 2px;
-  height: 68%;
-  background: var(--tc-navy);
-  transform: rotate(13deg);
-  transform-origin: center;
-}
-
-html[data-theme="dark"] .tc-hero-slash {
-  background: var(--global-theme-color);
 }
 
 .tc-button {
@@ -277,7 +264,7 @@ html[data-theme="dark"] .tc-button-secondary {
   grid-template-columns: minmax(190px, 0.65fr) minmax(0, 1.8fr);
   align-items: start;
   gap: 3rem;
-  padding-block: 2.65rem;
+  padding-block: 1.9rem;
 }
 
 .tc-bio-band .tc-eyebrow {
@@ -1310,6 +1297,15 @@ html[data-theme="dark"] .tc-paper-pdf-pill {
   gap: 1rem;
 }
 
+.tc-biosketch-overview {
+  max-width: 58rem;
+  margin-bottom: 3rem;
+}
+
+.tc-biosketch-overview p {
+  line-height: 1.75;
+}
+
 .tc-fact {
   padding: 1.25rem;
   border: 1px solid var(--tc-line);
@@ -1565,7 +1561,8 @@ html[data-theme="dark"] .tc-paper-pdf-pill {
   }
 
   .tc-hero-grid {
-    grid-template-columns: minmax(0, 1fr) 3.6rem minmax(205px, 245px);
+    grid-template-columns: minmax(0, 1fr) minmax(205px, 245px);
+    gap: 3.6rem;
     min-height: 300px;
   }
 
@@ -1607,13 +1604,12 @@ html[data-theme="dark"] .tc-paper-pdf-pill {
     background-size: 145px auto;
   }
 
-  .tc-hero-slash,
   .tc-portrait {
     display: none;
   }
 
   .tc-bio-grid {
-    padding-block: 2.2rem;
+    padding-block: 1.65rem;
   }
 
   .tc-home-panel {
