@@ -39,8 +39,8 @@ description: Tony Cai is the Daniel H. Silberberg Professor and Professor of Sta
     <div class="tc-bio-copy">
       <p>
         Tony Cai is the Daniel H. Silberberg Professor and Professor of Statistics and Data Science at Wharton. His research
-        develops statistical foundations for modern data science and AI, with emphasis on high-dimensional statistics,
-        transfer learning, differential privacy, federated learning, causal inference, and large-scale inference. His work
+        develops statistical foundations for modern data science and AI, with emphasis on differential privacy, federated learning, transfer learning, high-dimensional statistics,
+         large-scale inference, and causal inference. His work
         combines sharp theory with practical methodology and has influenced statistics, machine learning, genomics,
         biomedical science, and data-driven scientific discovery.
       </p>
