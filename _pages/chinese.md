@@ -91,7 +91,7 @@ nav_order: 8
       </h2>
       <a
         class="tc-paper-pdf-pill"
-        href="{{ '/assets/pdf/lectures/IMS_Presidential_Address_Chinese.pdf' | relative_url }}"
+        href="{{ '/assets/pdf/lectures/IMS_Presidential_Address_Chinese.pdf' | relative_url }  target="_blank"}"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="打开《处在十字路口的统计学：人工智能时代的挑战与机遇》PDF"
