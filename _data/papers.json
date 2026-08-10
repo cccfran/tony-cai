@@ -3,7 +3,7 @@
   "source_label": "T. Tony Cai short CV",
   "source_updated": "2026-08",
   "technical_reports_source_url": "http://www-stat.wharton.upenn.edu/~tcai/Papers.html",
-  "publication_count": 210,
+  "publication_count": 227,
   "technical_report_count": 17,
   "sections": [
     {
@@ -18,7 +18,7 @@
           "year": "2026",
           "topics": ["fda"],
           "abstract": "",
-          "pdf_url": "/assets/pdf/papers/Covariance-Function.pdf"
+          "pdf_url": "/assets/pdf/papers/FLR-Discrete.pdf"
         }
         {
           "authors": "Cai, T. T., Li, Y., & Yuan, M. (2026).",
