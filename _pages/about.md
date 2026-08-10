@@ -159,9 +159,9 @@ description: Tony Cai is the Daniel H. Silberberg Professor and Professor of Sta
         <h2 id="other-links-heading">Other Links</h2>
       </div>
       <ul class="tc-link-list">
-        <li><a href="https://dbmi.hms.harvard.edu/people/tianxi-cai">My sister Tianxi</a></li>
-        <li><a href="{{ '/genealogy/' | relative_url }}">My mathematical genealogy</a></li>
-        <li><a href="https://statistics.wharton.upenn.edu/">My colleagues and our students</a></li>
+        <li><a href="https://dbmi.hms.harvard.edu/people/tianxi-cai" target="_blank">My sister Tianxi</a></li>
+        <li><a href="{{ '/genealogy/' | relative_url }}" target="_blank">My mathematical genealogy</a></li>
+        <li><a href="https://statistics.wharton.upenn.edu/" target="_blank">My colleagues and our students</a></li>
       </ul>
     </section>
 
