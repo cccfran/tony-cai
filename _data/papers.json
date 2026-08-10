@@ -19,7 +19,7 @@
           "topics": ["fda"],
           "abstract": "",
           "pdf_url": "/assets/pdf/papers/FLR-Discrete.pdf"
-        }
+        },
         {
           "authors": "Cai, T. T., Li, Y., & Yuan, M. (2026).",
           "title": "Minimax and adaptive covariance function estimation in functional data analysis.",
@@ -29,7 +29,7 @@
           "topics": ["fda"],
           "abstract": "The covariance function is a central object in functional and longitudinal data analysis, yet its optimal estimation remains challenging because of its bivariate structure and its sensitivity to the sampling design. We study covariance function estimation for functional data under two distinct designs: the *common design*, in which all curves are observed on a shared grid, and the *independent design*, in which the sampling locations vary across curves. By exploiting the tensor-product structure of the covariance function, we propose a unified smoothing-spline estimator that applies to both settings. We establish minimax optimal convergence rates for the proposed estimator under both sampling designs and identify several phase transition phenomena. In particular, under the independent design with sparse sampling, the estimator attains a nearly ``univariate'' minimax rate of \\((nm)^{-2\alpha/(2\alpha+1)}\\),  up to a logarithmic factor, despite the intrinsically bivariate nature of the covariance function. By contrast, under the common design, the sparse-regime rate is dominated by the discretization error \\(m^{-2\alpha}\\). We further develop an adaptive implementation based on cross-validation for selecting the smoothing parameter, which does not require prior knowledge of the smoothness parameter \\(\alpha\\) or the sampling-frequency regime. Numerical experiments on both simulated and real datasets support the theoretical findings and demonstrate the practical effectiveness of the proposed method.",
 "pdf_url": "/assets/pdf/papers/Covariance-Function.pdf"
-        }
+        },
         {
           "authors": "Cai, T. T., Chakraborty, A., & Vuursteen, L. (2025).",
           "title": "The cost of adaptation under differential privacy: Optimal adaptive federated density estimation.",
