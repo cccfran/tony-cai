@@ -39,6 +39,8 @@ nav_order: 8
 </p>
 </div>
 
+<div class="tc-section-divider" aria-hidden="true"></div>
+
 <div class="tc-fact-grid">
   <section class="tc-fact">
     <h2>教育背景</h2>
@@ -67,6 +69,8 @@ nav_order: 8
     </ul>
   </section>
 </div>
+
+<div class="tc-section-divider" aria-hidden="true"></div>
 
 <h2 id="chinese-special-lecture-heading">国际数理统计学会主席致辞</h2>
 <ol class="tc-lecture-list" aria-labelledby="chinese-special-lecture-heading">
@@ -112,6 +116,8 @@ nav_order: 8
   </li>
 </ol>
 
+<div class="tc-section-divider" aria-hidden="true"></div>
+
 <h2 id="chinese-editorial-heading">学术期刊编委会</h2>
 <div class="tc-table-wrap">
   <table class="tc-table" aria-labelledby="chinese-editorial-heading">
@@ -131,6 +137,8 @@ nav_order: 8
     </tbody>
   </table>
 </div>
+
+<div class="tc-section-divider" aria-hidden="true"></div>
 
 <h2>主要荣誉</h2>
 <ul class="tc-honors-list">
@@ -156,6 +164,8 @@ nav_order: 8
   </li>
   <li><span class="tc-honor-year">2006</span><span>国际数理统计学会会士（IMS Fellow）</span></li>
 </ul>
+
+<div class="tc-section-divider" aria-hidden="true"></div>
 
 <h2>联系信息</h2>
 <p>电话：215-898-8224 · 电邮：<a href="mailto:tcai@wharton.upenn.edu">tcai@wharton.upenn.edu</a></p>

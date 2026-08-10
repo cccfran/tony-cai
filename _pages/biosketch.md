@@ -71,6 +71,8 @@ nav_order: 1
   </p>
 </div>
 
+<div class="tc-section-divider" aria-hidden="true"></div>
+
 <div class="tc-fact-grid">
   <section class="tc-fact">
     <h2>Education</h2>
@@ -100,6 +102,8 @@ nav_order: 1
   </section>
 </div>
 
+<div class="tc-section-divider" aria-hidden="true"></div>
+
 <h2>Honors &amp; awards</h2>
 <ul class="tc-honors-list">
   <li><span class="tc-honor-year">2027</span><span>Wald Memorial Award and Lecture, Institute of Mathematical Statistics</span></li>
@@ -128,6 +132,8 @@ nav_order: 1
   <li><span class="tc-honor-year">2006</span><span>Fellow, Institute of Mathematical Statistics</span></li>
 </ul>
 
+<div class="tc-section-divider" aria-hidden="true"></div>
+
 <h2>Editorial appointments</h2>
 <div class="tc-table-wrap">
   <table class="tc-table">
@@ -147,6 +153,8 @@ nav_order: 1
     </tbody>
   </table>
 </div>
+
+<div class="tc-section-divider" aria-hidden="true"></div>
 
 <h2>Professional societies</h2>
 <p>Institute of Mathematical Statistics · Institute of Electrical and Electronics Engineers · American Statistical Association · International Chinese Statistical Association · American Association for the Advancement of Science</p>

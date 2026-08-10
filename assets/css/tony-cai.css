@@ -652,6 +652,26 @@ html[data-theme="dark"] .tc-honor-year {
   line-height: 1.7;
 }
 
+.tc-section-divider {
+  position: relative;
+  margin: 2.75rem 0 2.25rem;
+  border-top: 1px solid var(--tc-line);
+}
+
+.tc-section-divider::after {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 5rem;
+  height: 4px;
+  background: var(--tc-navy);
+  content: "";
+}
+
+.tc-page-content .tc-section-divider + h2 {
+  margin-top: 0;
+}
+
 .tc-page-content h2 {
   margin-top: 3rem;
   color: var(--tc-ink);

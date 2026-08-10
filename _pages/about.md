@@ -98,6 +98,8 @@ description: Tony Cai is the Daniel H. Silberberg Professor and Professor of Sta
       </div>
     </section>
 
+    <div class="tc-section-divider" aria-hidden="true"></div>
+
     <section class="tc-section" aria-labelledby="interests-heading">
       <div class="tc-section-heading">
         <h2 id="interests-heading">Research interests</h2>
@@ -114,6 +116,8 @@ description: Tony Cai is the Daniel H. Silberberg Professor and Professor of Sta
         <li>Applications to financial econometrics</li>
       </ul>
     </section>
+
+    <div class="tc-section-divider" aria-hidden="true"></div>
 
     <section class="tc-section" aria-labelledby="honors-heading">
       <div class="tc-section-heading">
@@ -148,9 +152,11 @@ description: Tony Cai is the Daniel H. Silberberg Professor and Professor of Sta
       </ul>
     </section>
 
+    <div class="tc-section-divider" aria-hidden="true"></div>
+
     <section class="tc-section" aria-labelledby="other-links-heading">
       <div class="tc-section-heading">
-        <h2 id="other-links-heading">Other Links:</h2>
+        <h2 id="other-links-heading">Other Links</h2>
       </div>
       <ul class="tc-link-list">
         <li><a href="https://dbmi.hms.harvard.edu/people/tianxi-cai">My sister Tianxi</a></li>
