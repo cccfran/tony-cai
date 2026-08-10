@@ -38,12 +38,14 @@ Example record:
   "id": "paper-title",
   "url": "https://arxiv.org/abs/0000.00000",
   "topics": ["machine-learning", "transfer-learning"],
-  "abstract": "Plain-text abstract.",
+  "abstract": "Plain-text abstract with inline math such as \\(X \\in \\mathbb{R}^p\\).",
   "pdf_url": "/assets/pdf/papers/Paper-Title.pdf"
 }
 ```
 
 Keep `id` unique and use lowercase words separated by hyphens. `url` records the source or landing page; it is not the PDF button. A title is expandable only when `abstract` is present, and the PDF button appears only when both `abstract` and `pdf_url` are present. Published records may also retain `cv_number`; if used, it should match the item number in the current CV.
+
+For mathematical notation, use MathJax delimiters: `\\(...\\)` for inline math and `\\[...\\]` for display math. Because this is JSON, each backslash must be doubled. Do not paste legacy `<sub>`, `<sup>`, or entity markup such as `&times`; it will be escaped and displayed literally.
 
 ## Update the CV
 
@@ -111,7 +113,7 @@ Merging into `main` starts `.github/workflows/deploy.yml`. It builds the site an
 The scripts in `bin/` are not a one-click routine update:
 
 - `update_tcai_papers.rb` overwrites both paper data files and currently assumes the August 2026 CV, exactly 208 publications, fixed year sections, and the old topic page.
-- `update_paper_details.rb` rewrites paper data after fetching supported legacy or arXiv pages; it does not download PDFs.
+- `update_paper_details.rb` fetches supported legacy or arXiv pages and fills missing abstracts while preserving the curated abstracts already in the data. Set `TCAI_REFRESH_ABSTRACTS=1` only when intentionally replacing every abstract, then recheck all mathematical notation. It does not download PDFs.
 - `import_tcai_legacy.rb` is a migration/recovery tool that overwrites both papers and team data from the old website.
 
 Run an importer only when intentionally rebuilding data, and inspect the complete `git diff` before keeping its output.

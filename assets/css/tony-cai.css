@@ -1280,6 +1280,14 @@ html[data-theme="dark"] .tc-topic-tree > li.is-active-ancestor > a {
   line-height: 1.65;
 }
 
+.tc-paper-abstract mjx-container[display="true"] {
+  max-width: 100%;
+  margin: 0.85rem 0 !important;
+  padding-bottom: 0.2rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
 html[data-theme="dark"] .tc-paper-title-toggle:hover,
 html[data-theme="dark"] .tc-paper-abstract-label {
   color: var(--global-theme-color);
