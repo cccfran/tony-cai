@@ -21,6 +21,7 @@ PDF_PATTERN = /\.pdf(?:[?#]|\z)/i
 ARXIV_ABSTRACT_PATTERN = %r{\Ahttps?://(?:www\.)?arxiv\.org/abs/([^/?#]+)}i
 USER_AGENT = "Tony Cai website paper-details importer"
 THREAD_COUNT = Integer(ENV.fetch("TCAI_PAPER_DETAIL_THREADS", "12"), 10)
+REFRESH_ABSTRACTS = ENV["TCAI_REFRESH_ABSTRACTS"] == "1"
 
 PDF_URL_OVERRIDES = {
   "http://www-stat.wharton.upenn.edu/~tcai/paper/html/FL-PCA.html" => "https://arxiv.org/pdf/2411.15660",
@@ -157,7 +158,12 @@ end
 workers.each(&:join)
 
 papers.zip(results).each do |paper, result|
-  paper["abstract"] = result[:abstract] if result[:abstract] && !result[:abstract].empty?
+  # Existing abstracts include manually verified mathematical notation. Keep
+  # that curated copy unless a full refresh is explicitly requested; newly
+  # added papers without an abstract are still enriched automatically.
+  if result[:abstract] && !result[:abstract].empty? && (REFRESH_ABSTRACTS || paper["abstract"].to_s.empty?)
+    paper["abstract"] = result[:abstract]
+  end
   if result[:remove_pdf_url]
     paper.delete("pdf_url")
   elsif result[:pdf_url] && !result[:pdf_url].empty?
@@ -176,6 +182,7 @@ pdf_count = papers.count { |paper| !paper["pdf_url"].to_s.empty? }
 warn "Processed #{papers.length} papers with #{worker_count} workers."
 warn "Sources: #{kind_counts.sort.map { |kind, count| "#{kind}=#{count}" }.join(', ')}."
 warn "Enrichment: abstracts=#{abstract_count}, PDF links=#{pdf_count}, errors=#{error_count}, warnings=#{warning_count}."
+warn "Existing abstracts preserved (set TCAI_REFRESH_ABSTRACTS=1 to replace them)." unless REFRESH_ABSTRACTS
 
 papers.zip(results).each do |paper, result|
   prefix = "#{paper.fetch('id')}:"

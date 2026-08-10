@@ -129,6 +129,12 @@
     const item = toggle.closest("[data-paper-item], [data-disclosure-item]");
     if (item) item.classList.toggle("is-expanded", willExpand);
     window.dispatchEvent(new Event("paper-layout-change"));
+
+    if (willExpand && window.MathJax && typeof window.MathJax.typesetPromise === "function") {
+      window.MathJax.typesetPromise([panel])
+        .then(() => window.dispatchEvent(new Event("paper-layout-change")))
+        .catch(() => {});
+    }
   });
 
   document.querySelectorAll("[data-paper-browser]").forEach((browser) => {
