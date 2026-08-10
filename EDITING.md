@@ -47,11 +47,11 @@ Keep `id` unique and use lowercase words separated by hyphens. `url` records the
 
 ## Update the CV
 
-1. Replace `assets/pdf/Tony-Cai-CV-short.pdf`, keeping that exact filename. The CV tab will update automatically.
+1. Replace `assets/pdf/Tony-Cai-CV.pdf`, keeping that exact filename. The CV tab will update automatically.
 2. Open the PDF to confirm it is readable. If Poppler is installed, also run:
 
    ```bash
-   pdfinfo assets/pdf/Tony-Cai-CV-short.pdf
+   pdfinfo assets/pdf/Tony-Cai-CV.pdf
    ```
 
 3. Update `source_updated` near the top of `_data/papers.json` to the date of the new CV.
