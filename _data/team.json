@@ -2,7 +2,7 @@
   "source_url": "http://www-stat.wharton.upenn.edu/~tcai/Research-Group.html",
   "focus": "The research team is currently focused on building rigorous statistical foundations for modern data science and AI, with particular emphasis on learning from heterogeneous, sensitive, and distributed data. Working with a group of collaborators, the team pursues research in transfer learning, differential privacy, federated and distributed learning, causal inference, and high-dimensional statistics.The overarching goal is to characterize fundamental limits and develop optimal, adaptive, and practically useful methodologies that operate effectively under privacy, communication, heterogeneity, and resource constraints. The team also actively applies these methods to domains such as genomics and financial econometrics.",
   "current": {
-    "role": "Ph.D. Student",
+    "role": "Ph.D. Students",
     "members": ["Junu Lee", "Kevin Jiang", "Wanteng Ma", "Swapnaneel Bhattacharyya"]
   },
   "alumni": [
