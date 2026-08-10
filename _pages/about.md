@@ -160,7 +160,6 @@ description: Tony Cai is the Daniel H. Silberberg Professor and Professor of Sta
     </section>
 
     <section class="tc-visitor-counter" aria-label="Website visitor counter">
-      <span>Visitors</span>
       <div class="statcounter">
         <script>
           var sc_project = 379152;
@@ -179,6 +178,7 @@ description: Tony Cai is the Daniel H. Silberberg Professor and Professor of Sta
           </a>
         </noscript>
       </div>
+       <span>Visits</span>
     </section>
 
   </div>
