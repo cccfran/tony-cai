@@ -158,3 +158,26 @@ nav_order: 1
 
 <h2>Professional societies</h2>
 <p>Institute of Mathematical Statistics · Institute of Electrical and Electronics Engineers · American Statistical Association · International Chinese Statistical Association · American Association for the Advancement of Science</p>
+
+
+<section class="tc-visitor-counter" aria-label="Website visitor counter">
+  <div class="statcounter">
+    <script>
+      var sc_project = 379152;
+      var sc_invisible = 0;
+      var sc_security = "";
+    </script>
+    <script src="https://secure.statcounter.com/counter/counter.js"></script>
+    <noscript>
+      <a href="https://statcounter.com/" target="_blank" rel="noopener noreferrer">
+        <img
+          class="statcounter"
+          src="https://c.statcounter.com/379152/0//0/"
+          alt="Website visitor counter"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+      </a>
+    </noscript>
+  </div>
+   <span>Visits</span>
+</section>
