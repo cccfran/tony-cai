@@ -26,7 +26,7 @@ nav_order: 4
       <tr>
         <th scope="col">Name</th>
         <th scope="col">Role</th>
-        <th scope="col">Current position</th>
+        <th scope="col">Placement</th>
       </tr>
     </thead>
     <tbody>
