@@ -10,7 +10,7 @@ This guide covers routine content updates. Work in the source files, merge chang
 | Other pages and navbar order   | [`_pages/`](_pages/) — edit `nav`, `nav_order`, and `title` in the page front matter             |
 | Papers                         | [`_data/papers.json`](_data/papers.json)                                                         |
 | Paper topics and counts        | [`_data/paper_topics.json`](_data/paper_topics.json)                                             |
-| CV                             | [`assets/pdf/Tony-Cai-CV-short.pdf`](assets/pdf/Tony-Cai-CV-short.pdf)                           |
+| CV                             | [`assets/pdf/Tony-Cai-CV.pdf`](assets/pdf/Tony-Cai-CV.pdf)                           |
 | Paper PDFs                     | [`assets/pdf/papers/`](assets/pdf/papers/)                                                       |
 | Team and special lectures      | [`_data/team.json`](_data/team.json), [`_data/special_lectures.yml`](_data/special_lectures.yml) |
 | Images and styling             | [`assets/img/`](assets/img/), [`assets/css/tony-cai.css`](assets/css/tony-cai.css)               |
