@@ -89,7 +89,7 @@ description: Tony Cai is the Daniel H. Silberberg Professor and Professor of Sta
             Philadelphia, PA 19104
           </address>
           <p class="tc-contact-scholar">
-            <a href="https://scholar.google.com/citations?user=v1MTZmIAAAAJ&amp;hl=en&amp;oi=ao">
+            <a href="https://scholar.google.com/citations?user=v1MTZmIAAAAJ&amp;hl=en&amp;oi=ao" target="_blank">
               <i class="ai ai-google-scholar" aria-hidden="true"></i>
               <span>Google Scholar</span>
             </a>
