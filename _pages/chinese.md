@@ -134,15 +134,15 @@ nav_order: 8
 
 <h2>主要荣誉</h2>
 <ul class="tc-honors-list">
-  <li><span class="tc-honor-year">2027</span><span>国际数理统计学会 Wald 纪念奖与讲座</span></li>
-  <li><span class="tc-honor-year">2026</span><span>美国统计学会 Leo Breiman 奖</span></li>
+  <li><span class="tc-honor-year">2027</span><span>国际数理统计学会 (IMS) Wald 纪念奖与讲座</span></li>
+  <li><span class="tc-honor-year">2026</span><span>美国统计学会 (ASA) Leo Breiman 奖</span></li>
   <li><span class="tc-honor-year">2026</span><span>世界华人数学家大会最佳论文金奖</span></li>
   <li><span class="tc-honor-year">2023–26</span><span>国际数理统计学会（IMS）候任主席（2023–2024）、主席（2024–2025）及前任主席（2025–2026）</span></li>
   <li><span class="tc-honor-year">2024</span><span>美国科学促进会会士（AAAS Fellow）</span></li>
-  <li><span class="tc-honor-year">2023</span><span>美国统计学会 Noether 杰出学者奖</span></li>
+  <li><span class="tc-honor-year">2023</span><span>美国统计学会 (ASA) Noether 杰出学者奖</span></li>
   <li><span class="tc-honor-year">2023</span><span>国际基础科学大会前沿科学奖</span></li>
   <li><span class="tc-honor-year">2021</span><span>伯努利学会 Laplace 讲座（第十届世界概率与统计大会）</span></li>
-  <li><span class="tc-honor-year">2019</span><span>泛华统计学会杰出成就奖</span></li>
+  <li><span class="tc-honor-year">2019</span><span>泛华统计学会 (ICSA) 杰出成就奖</span></li>
   <li><span class="tc-honor-year">2019</span><span>泛华统计学会（ICSA）杰出服务奖</span></li>
   <li><span class="tc-honor-year">2018</span><span>剑桥大学 Peter Whittle 讲座</span></li>
   <li><span class="tc-honor-year">2018</span><span>世界华人数学家大会最佳论文奖</span></li>
