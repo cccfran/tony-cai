@@ -624,6 +624,25 @@ html[data-theme="dark"] .tc-honor-year {
   border-bottom: 1px solid var(--tc-line);
 }
 
+.tc-page-header--with-image {
+  padding-right: 14.5rem;
+}
+
+.tc-page-header-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 13rem;
+  height: 13rem;
+  border: 1px solid var(--tc-line);
+  border-radius: 0.45rem;
+  object-fit: cover;
+}
+
+.tc-page-header-image--content-aligned {
+  right: max(0px, calc(100% - 58rem));
+}
+
 .tc-page-header::after {
   position: absolute;
   bottom: -1px;
@@ -1645,6 +1664,15 @@ html[data-theme="dark"] .tc-paper-pdf-pill {
   .tc-honors-list li:nth-child(odd) {
     border-right: 0;
   }
+
+  .tc-page-header--with-image {
+    padding-right: 12.5rem;
+  }
+
+  .tc-page-header-image {
+    width: 11rem;
+    height: 11rem;
+  }
 }
 
 @media (max-width: 620px) {
@@ -1701,6 +1729,14 @@ html[data-theme="dark"] .tc-paper-pdf-pill {
 
   .tc-page-header {
     padding-top: 1.8rem;
+  }
+
+  .tc-page-header--with-image {
+    padding-right: 0;
+  }
+
+  .tc-page-header-image {
+    display: none;
   }
 
   .tc-paper-list li {
