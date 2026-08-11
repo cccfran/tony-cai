@@ -9,7 +9,7 @@ nav_order: 6
 
 <div class="tc-card-grid">
     <article class="tc-resource-card">
-    <h2><a href="https://canvas.upenn.edu/courses/1814493">STAT 4300 · Probability</a></h2>
+    <h2><a href="https://canvas.upenn.edu/courses/1947257">STAT 4300 · Probability</a></h2>
     <p>Fall 2026</p>
   </article>
     <article class="tc-resource-card">
