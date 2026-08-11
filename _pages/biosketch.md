@@ -3,6 +3,8 @@ layout: tony
 permalink: /biosketch/
 title: Biosketch
 kicker: Profile
+header_image: /assets/img/page-headers/biography.png
+header_image_align: content
 nav: true
 nav_order: 1
 ---

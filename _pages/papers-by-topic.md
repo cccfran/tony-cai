@@ -3,6 +3,7 @@ layout: tony
 permalink: /papers-by-topic/
 title: Papers by Topic
 kicker: Research index
+header_image: /assets/img/page-headers/papers.png
 nav: false
 ---
 

@@ -3,6 +3,7 @@ layout: tony
 permalink: /software/
 title: Software
 kicker: Research tools
+header_image: /assets/img/page-headers/software.png
 nav: true
 nav_order: 5
 ---

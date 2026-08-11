@@ -3,6 +3,7 @@ layout: tony
 permalink: /team/
 title: My Team
 kicker: Research group
+header_image: /assets/img/page-headers/team_members.png
 nav: true
 nav_order: 4
 ---

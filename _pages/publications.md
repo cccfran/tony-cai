@@ -3,6 +3,7 @@ layout: tony
 permalink: /papers/
 title: Papers
 kicker: Research
+header_image: /assets/img/page-headers/papers.png
 nav: true
 nav_order: 2
 ---

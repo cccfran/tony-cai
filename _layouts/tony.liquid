@@ -45,13 +45,23 @@
       <main class="tc-home" role="main">{{ content }}</main>
     {% else %}
       <main class="container mt-5 tc-page" role="main">
-        <header class="tc-page-header">
+        <header class="tc-page-header{% if page.header_image %} tc-page-header--with-image{% endif %}">
           {% if page.kicker %}
             <p class="tc-eyebrow">{{ page.kicker }}</p>
           {% endif %}
           <h1>{{ page.title }}</h1>
           {% if page.description %}
             <p class="tc-page-intro">{{ page.description }}</p>
+          {% endif %}
+          {% if page.header_image %}
+            <img
+              class="tc-page-header-image{% if page.header_image_align == 'content' %} tc-page-header-image--content-aligned{% endif %}"
+              src="{{ page.header_image | relative_url }}"
+              alt="{{ page.header_image_alt | default: '' | escape }}"
+              {% unless page.header_image_alt %}
+                aria-hidden="true"
+              {% endunless %}
+            >
           {% endif %}
         </header>
         <article class="tc-page-content">{{ content }}</article>
