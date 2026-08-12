@@ -3,6 +3,7 @@ layout: tony
 permalink: /teaching/
 title: Teaching
 kicker: Courses
+header_image: /assets/img/page-headers/courses.png
 nav: true
 nav_order: 6
 ---
