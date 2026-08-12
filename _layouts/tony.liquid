@@ -57,7 +57,7 @@
             <figure class="tc-page-header-media">
               <img
                 class="tc-page-header-image"
-                src="{{ page.header_image | relative_url }}"
+                src="{{ page.header_image | relative_url | bust_file_cache }}"
                 alt="{{ page.header_image_alt | default: '' | escape }}"
                 {% unless page.header_image_alt %}
                   aria-hidden="true"
