@@ -4,6 +4,7 @@ permalink: /software/
 title: Software
 kicker: Research tools
 header_image: /assets/img/page-headers/software.png
+header_image_credit: "Credit: ChatGPT"
 nav: true
 nav_order: 5
 ---

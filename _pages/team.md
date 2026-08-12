@@ -4,6 +4,7 @@ permalink: /team/
 title: My Team
 kicker: Research group
 header_image: /assets/img/page-headers/team_members.png
+header_image_credit: "Credit: ChatGPT"
 nav: true
 nav_order: 4
 ---

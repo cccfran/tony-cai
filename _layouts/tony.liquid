@@ -54,14 +54,19 @@
             <p class="tc-page-intro">{{ page.description }}</p>
           {% endif %}
           {% if page.header_image %}
-            <img
-              class="tc-page-header-image{% if page.header_image_align == 'content' %} tc-page-header-image--content-aligned{% endif %}"
-              src="{{ page.header_image | relative_url }}"
-              alt="{{ page.header_image_alt | default: '' | escape }}"
-              {% unless page.header_image_alt %}
-                aria-hidden="true"
-              {% endunless %}
-            >
+            <figure class="tc-page-header-media">
+              <img
+                class="tc-page-header-image"
+                src="{{ page.header_image | relative_url }}"
+                alt="{{ page.header_image_alt | default: '' | escape }}"
+                {% unless page.header_image_alt %}
+                  aria-hidden="true"
+                {% endunless %}
+              >
+              {% if page.header_image_credit %}
+                <figcaption class="tc-page-header-credit">{{ page.header_image_credit | escape }}</figcaption>
+              {% endif %}
+            </figure>
           {% endif %}
         </header>
         <article class="tc-page-content">{{ content }}</article>

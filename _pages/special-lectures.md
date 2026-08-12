@@ -4,6 +4,7 @@ permalink: /special-lectures/
 title: Special Lectures
 kicker: Special Invited lectures
 header_image: /assets/img/page-headers/special_lectures.png
+header_image_credit: "Credit: ChatGPT"
 nav: true
 nav_order: 3
 ---

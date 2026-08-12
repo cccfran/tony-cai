@@ -4,6 +4,7 @@ permalink: /papers/
 title: Papers
 kicker: Research
 header_image: /assets/img/page-headers/papers.png
+header_image_credit: "Credit: ChatGPT"
 nav: true
 nav_order: 2
 ---

@@ -4,6 +4,7 @@ permalink: /teaching/
 title: Teaching
 kicker: Courses
 header_image: /assets/img/page-headers/courses.png
+header_image_credit: "Credit: ChatGPT"
 nav: true
 nav_order: 6
 ---
