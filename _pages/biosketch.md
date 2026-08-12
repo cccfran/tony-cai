@@ -19,7 +19,7 @@ nav_order: 1
 
   <p>
     Cai’s research develops statistical foundations for modern data science and AI, with current emphasis on transfer
-    learning, differential privacy, federated and distributed learning, causal inference, and high-dimensional statistics. A
+    learning, differential privacy, federated and distributed learning, high-dimensional statistics, causal inference, and statistical decision theory. A
     central theme is reliable learning from heterogeneous, sensitive, and decentralized data: how information from related
     populations can improve a target analysis, how privacy and communication constraints affect statistical accuracy, and
     how methods can adapt to new settings without negative transfer. These questions arise naturally in modern scientific
