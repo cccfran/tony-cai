@@ -10,6 +10,16 @@
       "id": "reports",
       "title": "Technical Reports",
       "papers": [
+         {
+          "authors": "Cai, T. T. & Li, Y. (2026).",
+          "title": "Minimax and adaptive covariance matrix estimation under differential privacy.",
+          "venue": "Technical Report.",
+          "id": "the-cost-of-discretization-in-functional-linear-regression-minimax-rates-and-adaptation",
+          "year": "2026",
+          "topics": ["fda"],
+          "abstract": "Estimating covariance matrices is fundamental to a wide range of statistical applications. This paper studies minimax and adaptive estimation of high-dimensional covariance matrices under \\(\\rho\\)-zero-concentrated differential privacy (\\(\\rho\\)-zCDP) over three nested classes: the pointwise-decay class \\(\\mca{H}_\\alpha\\), the row-tail class \\(\\mca{G}_\\alpha\\), and the separated-block class \\(\\mca{F}_\\alpha\\). We consider both squared operator norm loss and normalized squared Frobenius norm loss. For \\(\\mca{H}_\\alpha\\) and \\(\\mca{G}_\\alpha\\), we develop center--outer dyadic estimators tailored to the refined geometry of the two classes, while for \\(\\mca{F}_\\alpha\\), we develop a blockwise tridiagonal estimator. The resulting minimax-optimal rates reveal a nontrivial interplay among the smoothness \\(\\alpha\\), the loss, the geometry of the covariance class, and the privacy constraint. In contrast to the non-private setting, privacy distinguishes covariance classes that share the same leading non-private rate and induces a polynomial dependence on the ambient dimension. We further develop procedures that adapt to the unknown decay parameter over all three covariance classes under both losses, at the cost of at most polylogarithmic factors. To establish minimax lower bounds, we develop a novel differentially private van Trees inequality that connects Fisher information with the \\(\\rho\\ zCDP constraint and may be useful for other private estimation problems. We also construct carefully designed prior distributions to obtain matching minimax lower bounds.",
+ "pdf_url": "/assets/pdf/papers/FLR-Discrete.pdf"
+        },
         {
           "authors": "Cai, T. T. & Li, Y. (2026).",
           "title": "The cost of discretization in functional linear regression: Minimax rates and adaptation.",
