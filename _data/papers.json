@@ -85,17 +85,6 @@
           "pdf_url": "https://arxiv.org/pdf/2510.22007"
         },
         {
-          "authors": "Cai, T. T., Chakraborty, A., & Vuursteen, L. (2025).",
-          "title": "Optimal federated learning for functional mean estimation under heterogeneous privacy constraints.",
-          "url": "http://www-stat.wharton.upenn.edu/~tcai/paper/html/FL-Functional-Mean.html",
-          "venue": "Technical report.",
-          "id": "optimal-federated-learning-for-functional-mean-estimation-under-heterogeneous-privacy-constraints",
-          "year": "2025",
-          "topics": ["federated-learning"],
-          "abstract": "Federated learning (FL) is a distributed machine learning technique designed to preserve data privacy and security, and it has gained significant importance due to its broad range of applications. This paper addresses the problem of optimal functional mean estimation from discretely sampled data in a federated setting. We consider a heterogeneous framework where the number of individuals, measurements per individual, and privacy parameters vary across one or more servers, under both common and independent design settings. In the common design setting, the same design points are measured for each individual, whereas in the independent design, each individual has their own random collection of design points. Within this framework, we establish minimax upper and lower bounds for the estimation error of the underlying mean function, highlighting the nuanced differences between common and independent designs under distributed privacy constraints. We propose algorithms that achieve the optimal trade-off between privacy and accuracy and provide optimality results that quantify the fundamental limits of private functional mean estimation across diverse distributed settings. These results characterize the cost of privacy and offer practical insights into the potential for privacy-preserving statistical analysis in federated environments.",
-          "pdf_url": "/assets/pdf/papers/FL-Functional-Mean.pdf"
-        },
-        {
           "authors": "Wu, R., Zhang, L., & Cai, T. T. (2025).",
           "title": "Supervised topic modeling: Optimal estimation and statistical inference.",
           "url": "http://www-stat.wharton.upenn.edu/~tcai/paper/html/Supervised-Topic-Modeling.html",
@@ -200,6 +189,17 @@
       "id": "2026-plus",
       "title": "2026+",
       "papers": [
+      {
+          "year": "2026+",
+          "authors": "Cai, T. T., Chakraborty, A., & Vuursteen, L. (2026+).",
+          "title": "Optimal federated learning for functional mean estimation under heterogeneous privacy constraints.",
+          "url": "http://www-stat.wharton.upenn.edu/~tcai/paper/html/FL-Functional-Mean.html",
+          "venue": "Journal of the Royal Statistical Society, Series B.",
+          "id": "optimal-federated-learning-for-functional-mean-estimation-under-heterogeneous-privacy-constraints",
+          "topics": ["federated-learning"],
+          "abstract": "Federated learning (FL) is a distributed machine learning technique designed to preserve data privacy and security, and it has gained significant importance due to its broad range of applications. This paper addresses the problem of optimal functional mean estimation from discretely sampled data in a federated setting. We consider a heterogeneous framework where the number of individuals, measurements per individual, and privacy parameters vary across one or more servers, under both common and independent design settings. In the common design setting, the same design points are measured for each individual, whereas in the independent design setting, each individual has their own random collection of design points. Within this framework, we establish minimax upper and lower bounds for the estimation error of the underlying mean function, highlighting the differences between common and independent designs under distributed privacy constraints. We propose algorithms that achieve the optimal trade-off between privacy and accuracy and provide optimality results that quantify the fundamental limits of private functional mean estimation. We further support the theory with simulations and a real-data illustration using BMI trajectories from the Health and Retirement Study.",
+          "pdf_url": "/assets/pdf/papers/FL-Functional-Mean.pdf"
+      },
       {
           "year": "2026+",
           "authors": "Cai, T. T.， Kim, D.， Li, Y., & Xiang, D. (2026+).",
