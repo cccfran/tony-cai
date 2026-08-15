@@ -2731,38 +2731,6 @@
           "topics": ["wavelet-thresholding"],
           "abstract": "Standard wavelet shrinkage procedures for nonparametric regression are restricted to equispaced samples. There, data are transformed into empirical wavelet coefficients and threshold rules are applied to the coefficients. The estimators are obtained via the inverse transform of the denoised wavelet coefficients. In many applications, however, the samples are nonequispaced. It can be shown that these procedures would produce suboptimal estimators if they were applied directly to nonequispaced samples. We propose a wavelet shrinkage procedure for nonequispaced samples. We show that the estimate is adaptive and near optimal. For global estimation, the estimate is within a logarithmic factor of the minimax risk over a wide range of piecewise Hölder classes, indeed with a number of discontinuities that grows polynomially fast with the sample size. For estimating a target function at a point, the estimate is optimally adaptive to unknown degree of smoothness within a constant. In addition, the estimate enjoys a smoothness property: if the target function is the zero function, then with probability tending to 1 the estimate is also the zero function.",
           "pdf_url": "/assets/pdf/papers/Noneq.pdf"
-        },
-        {
-          "cv_number": 206,
-          "year": "1991",
-          "authors": "Cai, T.T. (1991).",
-          "title": "Constructions of BIB designs using orthogonal geometries.",
-          "venue": "Journal of Shanghai Jiao Tong University 25, 113-121 (in Chinese).",
-          "id": "constructions-of-bib-designs-using-orthogonal-geometries",
-          "url": null,
-          "topics": []
-        },
-        {
-          "cv_number": 207,
-          "year": "1990",
-          "authors": "Cai, T.T. (1990).",
-          "title": "On the existence of Kirkman systems KS(2, 4; v) containing Kirkman subsystems.",
-          "venue": "In W.D. Wallis (ed) Combinatorial Designs and Applications, Marcel Dekker, New York.",
-          "id": "on-the-existence-of-kirkman-systems-ks-2-4-v-containing-kirkman-subsystems",
-          "url": "https://www.routledge.com/Combinatorial-Designs-and-Applications/Nashed-Taft-Wallis/p/book/9780824783945",
-          "topics": [],
-          "abstract": "The obvious necessary conditions for the existence of a Kirkman system KS(2, k, u) containing a sub-KS(2, k, v) are u ≡ v ≡ k (mod k(k−1)) and u > kv. For KS(2, 4, v), the paper shows that a KS(2, 4, u) containing a sub-KS(2, 4, v) exists when u ≡ v ≡ 4 (mod 12), u > 5v−160, and v > 340, and also gives results for v < 328.",
-          "pdf_url": "https://api.pageplace.de/preview/DT0400.9781000116908_A40809613/preview-9781000116908_A40809613.pdf"
-        },
-        {
-          "cv_number": 208,
-          "year": "1989",
-          "authors": "Cai, T.T. (1989).",
-          "title": "Embeddings of Kirkman systems KS(2, 4; v).",
-          "venue": "Advances in Mathematics 18(3), 374-375.",
-          "id": "embeddings-of-kirkman-systems-ks-2-4-v",
-          "url": "https://rkyfz.pku.edu.cn/Article/info?aid=278177380",
-          "topics": []
         }
       ]
     }
