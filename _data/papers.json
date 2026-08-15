@@ -196,7 +196,7 @@
           "url": "http://www-stat.wharton.upenn.edu/~tcai/paper/html/FL-Functional-Mean.html",
           "venue": "Journal of the Royal Statistical Society, Series B.",
           "id": "optimal-federated-learning-for-functional-mean-estimation-under-heterogeneous-privacy-constraints",
-          "topics": ["federated-learning"],
+          "topics": ["federated-learning", "fda"],
           "abstract": "Federated learning (FL) is a distributed machine learning technique designed to preserve data privacy and security, and it has gained significant importance due to its broad range of applications. This paper addresses the problem of optimal functional mean estimation from discretely sampled data in a federated setting. We consider a heterogeneous framework where the number of individuals, measurements per individual, and privacy parameters vary across one or more servers, under both common and independent design settings. In the common design setting, the same design points are measured for each individual, whereas in the independent design setting, each individual has their own random collection of design points. Within this framework, we establish minimax upper and lower bounds for the estimation error of the underlying mean function, highlighting the differences between common and independent designs under distributed privacy constraints. We propose algorithms that achieve the optimal trade-off between privacy and accuracy and provide optimality results that quantify the fundamental limits of private functional mean estimation. We further support the theory with simulations and a real-data illustration using BMI trajectories from the Health and Retirement Study.",
           "pdf_url": "/assets/pdf/papers/FL-Functional-Mean.pdf"
       },
