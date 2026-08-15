@@ -118,17 +118,6 @@
           "pdf_url": "https://arxiv.org/pdf/2411.15660"
         },
         {
-          "authors": "Cai, T. T. & Kim, D. (2024).",
-          "title": "Transfer learning for covariance matrix estimation: Optimality and adaptivity.",
-          "url": "http://www-stat.wharton.upenn.edu/~tcai/paper/html/Transfer-Learning-Covariance.html",
-          "venue": "Technical report.",
-          "id": "transfer-learning-for-covariance-matrix-estimation-optimality-and-adaptivity",
-          "year": "2024",
-          "topics": ["transfer-learning", "covariance-structures"],
-          "abstract": "Transfer learning, which leverages knowledge from an auxiliary source dataset to improve performance in a primary target domain, has emerged as a pivotal machine learning technique. In this paper, we consider minimax and adaptive estimation of large bandable covariance matrices within the transfer learning framework. We first establish the minimax rate of convergence under the spectral norm and propose a rate-optimal estimation procedure. Our findings reveal intriguing phase transition phenomena that highlight the effectiveness of transfer learning and the use of source samples. We then address the problem of adaptation, establishing the adaptive rate of convergence up to a logarithmic factor. Our results demonstrate that, in sharp contrast to conventional settings, the cost of adaptation in transfer learning can be substantial in certain cases. We propose a novel data-driven algorithm that dynamically adapts to unknown model parameters. These theoretical insights are further validated by a simulation study, demonstrating the practicality and efficiency of the proposed adaptive algorithm.",
-          "pdf_url": "/assets/pdf/papers/Transfer-Learning-Covariance.pdf"
-        },
-        {
           "authors": "Cai, T. T., Chakraborty, A., & Vuursteen, L. (2024).",
           "title": "Federated nonparametric hypothesis testing with differential privacy constraints: Optimal rates and adaptive tests.",
           "url": "http://www-stat.wharton.upenn.edu/~tcai/paper/html/FL-GOF-Testing.html",
@@ -211,6 +200,17 @@
       "id": "2026-plus",
       "title": "2026+",
       "papers": [
+      {
+          "year": "2026+",
+          "authors": "Cai, T. T.， Kim, D.， Li, Y., & Xiang, D. (2026+).",
+          "title": "Transfer learning for covariance matrix estimation: Optimality and adaptivity.",
+          "url": "http://www-stat.wharton.upenn.edu/~tcai/paper/html/Transfer-Learning-Covariance.html",
+          "venue": "Journal of the American Statistical Association, to appear.",
+          "id": "transfer-learning-for-covariance-matrix-estimation-optimality-and-adaptivity",
+          "topics": ["transfer-learning", "covariance-structures"],
+          "abstract": "Transfer learning, which leverages knowledge from an auxiliary source dataset to improve performance in a primary target domain, has emerged as a pivotal machine learning technique. In this paper, we consider minimax and adaptive estimation of large bandable covariance matrices within the transfer learning framework. We first establish the minimax rate of convergence under the spectral norm and propose a rate-optimal estimation procedure. Our findings reveal intriguing phase transition phenomena that highlight the effectiveness of transfer learning and the use of source samples. We then address the problem of adaptation, establishing the adaptive rate of convergence up to a logarithmic factor. Our results demonstrate that, in sharp contrast to conventional settings, the cost of adaptation in transfer learning can be substantial in certain cases. We propose a novel data-driven algorithm that dynamically adapts to unknown model parameters. These theoretical insights are further validated by a simulation study, demonstrating the practicality and efficiency of the proposed adaptive algorithm.",
+          "pdf_url": "/assets/pdf/papers/Transfer-Learning-Covariance.pdf"
+        },
         {
           "cv_number": 1,
           "year": "2026+",
