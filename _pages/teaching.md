@@ -6,7 +6,7 @@ kicker: Courses
 header_image: /assets/img/page-headers/courses.png
 header_image_credit: "Credit: ChatGPT"
 nav: true
-nav_order: 6
+nav_order: 4
 ---
 
 <div class="tc-card-grid">
