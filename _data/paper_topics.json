@@ -36,6 +36,14 @@
       "count": 9
     },
     {
+      "id": "text-analysis",
+      "legacy_anchor": "LLMs & Text Analysis",
+      "title": "LLMs & Text Analysis",
+      "level": 2,
+      "parent_id": "machine-learning",
+      "count": 5
+    },
+    {
       "id": "computational-costs",
       "legacy_anchor": "Computational.Costs",
       "title": "Interplay between Statistical Accuracy and Computational Costs",
