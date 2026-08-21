@@ -463,7 +463,7 @@
           "venue": "Test 32, 1135-1171.",
           "id": "statistical-inference-and-large-scale-multiple-testing-for-high-dimensional-regression-models-invited-discussion-paper",
           "url": "http://www-stat.wharton.upenn.edu/~tcai/paper/html/GLM-Inference-Survey.html",
-          "topics": ["linear-regression"],
+          "topics": ["linear-regression", "mcp"],
           "abstract": "This paper presents a selective survey of recent developments in statistical inference and multiple testing for high-dimensional regression models, including linear and logistic regression. We examine the construction of confidence intervals and hypothesis tests for various low-dimensional objectives such as regression coefficients and linear and quadratic functionals. The key technique is to generate debiased and desparsified estimators for the targeted low-dimensional objectives and estimate their uncertainty. In addition to covering the motivations for and intuitions behind these statistical methods, we also discuss their optimality and adaptivity in the context of high-dimensional inference. In addition, we review the development of statistical inference based on multiple regression models and the advancement of large-scale multiple testing for high-dimensional regression. The R package SIHR has implemented the high-dimensional inference methods reviewed in this paper.",
           "pdf_url": "/assets/pdf/papers/GLM-Inference-Survey.pdf"
         },
@@ -475,7 +475,7 @@
           "venue": "Journal of the American Statistical Association 118, 2171-2183.",
           "id": "transfer-learning-in-large-scale-gaussian-graphical-models-with-false-discovery-rate-control",
           "url": "http://www-stat.wharton.upenn.edu/~tcai/paper/html/Transfer-Learning-GGM.html",
-          "topics": ["transfer-learning"],
+          "topics": ["transfer-learning", "mcp"],
           "abstract": "Transfer learning for high-dimensional Gaussian graphical models (GGMs) is studied with the goal of estimating the target GGM by utilizing the data from similar and related auxiliary studies. The similarity between the target graph and each auxiliary graph is characterized by the sparsity of a divergence matrix. An estimation algorithm, Trans-CLIME, is proposed and shown to attain a faster convergence rate than the minimax rate in the single-task setting. Furthermore, we introduce a universal debiasing method which can be coupled with many initial graph estimators and can be analytically computed in one step. Applying such a debiasing method, a debiased Trans-CLIME estimator is obtained and is shown to be element-wise asymptotically normal. We use the latter fact to construct a multiple testing procedure for edge detection with false discovery rate control. The proposed estimation and multiple testing procedures demonstrate superior numerical performance in simulations and are applied to infer the gene networks in a target brain tissue by leveraging the gene expressions from multiple other brain tissues. A significant decrease in prediction errors and a significant increase in power for link detection are observed.",
           "pdf_url": "/assets/pdf/papers/Transfer-Learning-GGM.pdf"
         },
@@ -575,7 +575,7 @@
           "venue": "Journal of the Royal Statistical Society, Series B 84, 149-173.",
           "id": "transfer-learning-for-high-dimensional-linear-regression-prediction-estimation-and-minimax-optimality",
           "url": "http://www-stat.wharton.upenn.edu/~tcai/paper/html/Transfer-Learning-HDLR.html",
-          "topics": ["transfer-learning"],
+          "topics": ["transfer-learning", "linear-regression"],
           "abstract": "This paper considers estimation and prediction of a high-dimensional linear regression in the setting of transfer learning where, in addition to observations from the target model, auxiliary samples from different but possibly related regression models are available. When the set of informative auxiliary studies is known, an estimator and a predictor are proposed and their optimality is established. The optimal rates of convergence for prediction and estimation are faster than the corresponding rates without using the auxiliary samples. This implies that knowledge from the informative auxiliary samples can be transferred to improve the learning performance of the target problem. When the set of informative auxiliary samples is unknown, we propose a data-driven procedure for transfer learning, called Trans-Lasso, and show its robustness to non-informative auxiliary samples and its efficiency in knowledge transfer. The proposed procedures are demonstrated in numerical studies and are applied to a dataset concerning the associations among gene expressions. It is shown that Trans-Lasso leads to improved performance in gene expression prediction in a target tissue by incorporating data from multiple different tissues as auxiliary samples.",
           "pdf_url": "/assets/pdf/papers/Transfer-Learning-HDLR.pdf"
         },
@@ -592,18 +592,6 @@
           "pdf_url": "/assets/pdf/papers/SCAB.pdf"
         },
         {
-          "cv_number": 30,
-          "year": "2022",
-          "authors": "Cai, T.T. and Wei, H. (2022).",
-          "title": "Distributed adaptive Gaussian mean estimation with unknown variance: Interactive protocol helps adaptation.",
-          "venue": "The Annals of Statistics 50, 1992-2020.",
-          "id": "distributed-adaptive-gaussian-mean-estimation-with-unknown-variance-interactive-protocol-helps-adaptation",
-          "url": "http://www-stat.wharton.upenn.edu/~tcai/paper/html/Distributed-Gaussian-Mean-UnknownVar.html",
-          "topics": ["federated-learning"],
-          "abstract": "Distributed estimation of a Gaussian mean with unknown variance under communication constraints is studied. Necessary and sufficient communication costs under different types of distributed protocols are derived for any estimator that is adaptively rate-optimal over a range of possible values for the variance. Communication-efficient and statistically optimal procedures are developed. The analysis reveals an interesting and important distinction among different types of distributed protocols: compared to the independent protocols, interactive protocols such as the sequential and blackboard protocols require less communication costs for rate-optimal adaptive Gaussian mean estimation. The lower bound techniques developed in the present paper are novel and can be of independent interest.",
-          "pdf_url": "/assets/pdf/papers/Distributed-Gaussian-Mean-UnknownVar.pdf"
-        },
-        {
           "cv_number": 31,
           "year": "2022",
           "authors": "Cai, T.T. and Wei, H. (2022).",
@@ -614,6 +602,18 @@
           "topics": ["federated-learning"],
           "abstract": "Distributed minimax estimation and distributed adaptive estimation under communication constraints for Gaussian sequence model and white noise model are studied. The minimax rate of convergence for distributed estimation over a given Besov class, which serves as a benchmark for the cost of adaptation, is established. We then quantify the exact communication cost for adaptation and construct an optimally adaptive procedure for distributed estimation over a range of Besov classes. The results demonstrate significant differences between nonparametric function estimation in the distributed setting and the conventional centralized setting. For global estimation, adaptation in general cannot be achieved for free in the distributed setting. The new technical tools to obtain the exact characterization for the cost of adaptation can be of independent interest.",
           "pdf_url": "/assets/pdf/papers/Distributed-Nonparametric-Regression.pdf"
+        },
+        {
+          "cv_number": 30,
+          "year": "2022",
+          "authors": "Cai, T.T. and Wei, H. (2022).",
+          "title": "Distributed adaptive Gaussian mean estimation with unknown variance: Interactive protocol helps adaptation.",
+          "venue": "The Annals of Statistics 50, 1992-2020.",
+          "id": "distributed-adaptive-gaussian-mean-estimation-with-unknown-variance-interactive-protocol-helps-adaptation",
+          "url": "http://www-stat.wharton.upenn.edu/~tcai/paper/html/Distributed-Gaussian-Mean-UnknownVar.html",
+          "topics": ["federated-learning"],
+          "abstract": "Distributed estimation of a Gaussian mean with unknown variance under communication constraints is studied. Necessary and sufficient communication costs under different types of distributed protocols are derived for any estimator that is adaptively rate-optimal over a range of possible values for the variance. Communication-efficient and statistically optimal procedures are developed. The analysis reveals an interesting and important distinction among different types of distributed protocols: compared to the independent protocols, interactive protocols such as the sequential and blackboard protocols require less communication costs for rate-optimal adaptive Gaussian mean estimation. The lower bound techniques developed in the present paper are novel and can be of independent interest.",
+          "pdf_url": "/assets/pdf/papers/Distributed-Gaussian-Mean-UnknownVar.pdf"
         },
         {
           "cv_number": 32,
