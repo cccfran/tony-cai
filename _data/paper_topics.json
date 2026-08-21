@@ -12,14 +12,6 @@
       "count": 1
     },
     {
-      "id": "transfer-learning",
-      "legacy_anchor": "Transfer.Learning",
-      "title": "Transfer Learning",
-      "level": 2,
-      "parent_id": "machine-learning",
-      "count": 8
-    },
-    {
       "id": "privacy",
       "legacy_anchor": "Privacy",
       "title": "Differentially Private Learning",
@@ -34,6 +26,14 @@
       "level": 2,
       "parent_id": "machine-learning",
       "count": 9
+    },
+    {
+      "id": "transfer-learning",
+      "legacy_anchor": "Transfer.Learning",
+      "title": "Transfer Learning",
+      "level": 2,
+      "parent_id": "machine-learning",
+      "count": 8
     },
     {
       "id": "text-analysis",
